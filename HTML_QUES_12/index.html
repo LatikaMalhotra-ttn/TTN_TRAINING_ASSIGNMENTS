@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Exercise</title>
+    <link rel="stylesheet" type="text/css" href="./maincss.css"/>
+    <script>
+    
+        function choosefile(){
+            
+            document.getElementById('attachment').click();
+           
+        }
+        
+    </script>
+
+</head>
+<body>
+    
+        <header id="header-content">
+            <ul class="nav-list">
+                <li id="heading-main" class="nav-list nav-left-content">TO THE NEW</li>
+                <li class="heading-nav nav-list nav-right-content">Home</li>
+                <li class="heading-nav nav-list nav-right-content">Quick Help</li>
+            </ul>
+        </header>
+        
+        <div class="main-form-css">
+            <div id="form-heading">
+                <p>Bug Report</p>
+            </div>
+            <form id="form-css" >
+                <div id="form-content">
+                    <div class="form-div">
+                        <label for="title" class="label-heading">Title: <span class="red_assestric">*</span></label><br/>
+                        <input class="input-class" type="text" id="title" name="title">
+                    </div>
+                    <div class="form-div">
+                        
+                        <label for="description" class="label-heading">Description: <span class="red_assestric">*</span> </label><br/>
+                        <textarea rows="5" cols="30%" id="description" name="description"></textarea>
+                    </div>
+                    <div class="form-div">
+                        
+                        <label for="Operating-system" class="label-heading">Operating System: </label><br/>
+                        <select class="check-box-class" name="Operating-system">
+                            <option value="windowsxp">Windows XP</option>
+                            <option value="mac">MAC</option>
+                            <option value="linux">Linux</option>
+                            <option value="ubuntu">Ubuntu</option>
+                        </select>
+                    </div>
+                    <div class="form-div">
+                        
+                        <label for="Product" class="label-heading">Product: 
+                            <span class="red_assestric">*</span>
+                        </label><br/>
+                        <select class="check-box-class" name="Product">
+                            <option value="formold">Formold</option>
+                            <option value="---">---</option>
+                            <option value="---">---</option>
+                            <option value="---">----</option>
+                        </select>
+                    </div>
+                    <div class="form-div">
+                        
+                        <label for="Version" class="label-heading">Version: 
+                            <span class="red_assestric">*</span>
+                        </label><br/>
+                        <input  type="text" id="version" name="version">
+                    </div>
+                    <div class="form-div">
+                        
+                        <label for="License" class="label-heading">License: </label><br/>
+                        <div class="radio-grid">
+                        <div><input class="radio-left"  type="radio" name="license" value="free"> Free</div>
+                        <div><input class="radio-right" type="radio" name="license" value="business"> Business</div>
+                        </div>
+                    </div>
+                    <div class="form-div">
+                       
+                        <label for="Security" class="label-heading">Security: </label><br/>
+                        <select class="check-box-class" name="Security">
+                            <option value="critical">Cricital</option>
+                            <option value="---">---</option>
+                            <option value="---">---</option>
+                            <option value="---">----</option>
+                        </select>
+                    </div>
+                    <div class="form-div">                           
+                        <label class="label-heading" for="Attachments">Attachments: </label><br/>
+                        <!-- <input type="file" id="attachments" name="attachments"> -->
+
+                        <div id="file-con">           
+                            <input id="attachment"  type="file" >
+                            <button  id="fbtn" class="btn btn-info" onClick="choosefile()">Choose File </button>
+                        </div>
+                        
+
+
+
+                    </div>
+                </div>
+                <div class="button-css">
+                    <button type="submit" id="btn-submit" >
+                        Send
+                    </button>
+                </div>
+            </form>
+        </div>
+    
+    
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div id="form-heading">
+    <p>Bug report</p>
+</div>
+<div class="">
+    <form id="form-css" >
+        <div id="form-content">
+            <div class="form-div">
+                <label for="title">Title: <span class="red_assestric">*</span></label>
+                <input class="input-class" type="text" id="title" name="title">
+            </div>
+            <div class="form-div">
+                
+                <label for="description">Description: <span class="red_assestric">*</span> </label>
+                <textarea rows="5" cols="50" id="description" name="description"></textarea>
+            </div>
+            <div class="form-div">
+                
+                <label for="Operating-system">Operating System: </label>
+                <select class="check-box-class" name="Operating-system">
+                    <option value="windowsxp">Windows XP</option>
+                    <option value="mac">MAC</option>
+                    <option value="linux">Linux</option>
+                    <option value="ubuntu">Ubuntu</option>
+                </select>
+            </div>
+            <div class="form-div">
+                
+                <label for="Product">Product: 
+                    <span class="red_assestric">*</span>
+                </label>
+                <select class="check-box-class" name="Product">
+                    <option value="formold">Formold</option>
+                    <option value="---">---</option>
+                    <option value="---">---</option>
+                    <option value="---">----</option>
+                </select>
+            </div>
+            <div class="form-div">
+                
+                <label for="Version">Version: 
+                    <span class="red_assestric">*</span>
+                </label>
+                <input  type="text" id="version" name="version">
+            </div>
+            <div class="form-div">
+                
+                <label for="License">License: </label>
+                <input class="radio-left"  type="radio" name="license" value="free"> Free
+                <input type="radio" name="license" value="business"> Business
+            </div>
+            <div class="form-div">
+               
+                <label for="Security">Security: </label>
+                <select class="check-box-class" name="Security">
+                    <option value="critical">Cricital</option>
+                    <option value="---">---</option>
+                    <option value="---">---</option>
+                    <option value="---">----</option>
+                </select>
+            </div>
+            <div class="form-div">                           
+                <label for="Attachments">Attachments: </label>
+                <input type="file" id="attachments" name="attachments">
+            </div>
+        </div>
+        <div class="button-css">
+            <button type="submit" id="btn-submit" >
+                Send
+            </button>
+        </div>
+    </form>
+    
+</div> -->
