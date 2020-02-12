@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./formbootstrap.css"/>
+    
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<script>
+    function change(){
+
+        document.getElementById ('fileName').value = document.getElementById('fl').value;
+    }
+    function choosefile(){
+        
+        document.getElementById('attachment').click();
+       
+    }
+    
+</script>
+</head>
+<body>
+    <div id="header" class="navbar navbar-expand-lg row">
+        <h2 id='ttn' class="navbar-brand col-9 col-md-10">TO THE NEW</h2>
+        <div id="u-menu col-2">
+            <img id="menu" src="./menu.png" class="btn btn-primary navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                   
+        </div>
+        <div id="nav-content" class="navbar-nav col-md-2">
+            
+            <p id="upper1" class="nav-item">Home</p>
+            <p id="upper2" class="nav-item">Quick Help</p>
+        </div>
+
+        <div class="collapse navbar-collapse bg-dark col-12 " id="collapsibleNavbar">
+       
+            <ul class="navbar-nav" id="nav">
+                <li class="navbar-item">
+                TEST LINK
+                </li>
+                <li class="navbar-item">
+                TEST LINK
+                </li>
+           
+            </ul>
+       
+        </div>
+    </div>
+    <div class="container">
+        
+        <div id="cen-main">      
+            <div id="center">
+            <h4 id="heading">Bug Report</h4>
+            <div id="body">
+                <form class="form">
+                    <div id="test">      
+                        <div class="form-group">
+                            <label>Title:<span class="req">*</span></label>
+                            <input class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Description:<span class="req">*</span></label>
+                        <input class="form-control" type="text" id="textarea">
+                    </div>
+                
+                    <div class="dropdown">
+                        <button id='os' type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                        Operating System
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Windows</a>
+                            <a class="dropdown-item" href="#">Mac</a>
+                            <a class="dropdown-item" href="#">Linux</a>
+                        </div>
+                          
+                    </div>
+                    <!-- <label for="Product:">Product:</label> -->
+                    <div id="product-f" class="dropdown">
+                        <button id='pro' type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                            Product
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Windows</a>
+                          <a class="dropdown-item" href="#">Mac</a>
+                          <a class="dropdown-item" href="#">Linux</a>
+                        </div>
+                      
+                    </div>
+                    <div class="form-group">
+                        <label>Version:</label>
+                        <input class="form-control" type="number" required>
+                    </div>    
+
+                    <div class="form-group">
+                        <label>Licence:</label>
+                        <div id="optns">
+                            <span id="r-option1">
+                                <input name="lic" value="free" type="radio"><span>Free</span>
+                            </span>
+                            <span id="r-option2">
+                                <input name="lic" value="business" type="radio"><span>Business</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                        Severity
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">High</a>
+                            <a class="dropdown-item" href="#">Medium</a>
+                            <a class="dropdown-item" href="#">Low</a>
+                        </div>
+                
+                    </div>
+
+                    <div id="at">
+                        <input id="dec" class="col-7" id="fileName" type="text" readonly="readonly">
+                        <button onclick="choosefile()" class="btn btn-info col-4" >choose file</button>
+                        <input type="file" onchange="change()" id="attachment">
+                    </div>
+<!-- <input style="display: inline;" class="form-control col-6"  type="text" id="fileName" readonly="readonly" >
+ <span class="file_input_div col-3"   style="display: inline;">
+ <input  onclick="choosefile()" type="button" class="btn btn-success" id="cf" value="choose file"/>
+ <input style="display: none;"  type="file" id="fl"  style="opacity:0; position:relative; left:-40px;"  onchange ="change()"/>
+ </span> -->
+
+                </form>
+
+            </div>
+            <div id="last">
+                <button class="btn btn-info">Send</button>
+            </div>
+
+        </div>
+    </div>
+    <!-- </div> -->
+    
+</body>
+</html>

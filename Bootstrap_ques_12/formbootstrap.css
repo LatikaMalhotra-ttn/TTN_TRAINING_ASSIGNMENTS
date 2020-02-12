@@ -1,0 +1,174 @@
+
+#upper2{
+    
+    
+    margin-left:1rem ;
+}
+#nav{
+    display: none;
+}
+.dropdown{
+    width: 100%;
+}
+#pro{
+    width: 100%;
+
+}
+#os{
+    width: 100%;
+}
+#u-menu{
+    display: none;
+}
+#body{
+ padding-left: 3%;
+ padding-right: 3%;   
+}
+#header{
+    color: #29a9cc;
+border-bottom: 1px solid #addeec;
+}
+
+#cen-main{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+#center{
+    width: 25vw;
+    height: auto;
+  position: relative;
+    border: 1px solid #addeec;
+    border-radius: 5px;
+}
+#heading{
+    /* text-align: center; */
+    background: rgb(196, 194, 194);
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#attachment{
+display: none;
+}
+#dec{
+   border:1px solid #addeec;
+   height: auto;
+   border-radius: 5px;
+}
+#at{
+    height: auto;
+    padding: 0.4rem;
+}
+
+#file-con{
+border: 1px solid #addeec;
+    height: auto;
+    border-left: 0px;
+    margin: 0px;
+    height: 2rem;
+    position: relative;
+    border-radius: 5px;
+  
+}
+#fbtn{
+
+    position: absolute;
+    top: 0px;
+    width: 30%;
+    font-size: 0.7rem;
+    left: 0px;
+    height: 2rem;
+    z-index: 2;
+    height: 100%;
+}
+#last{
+    background: rgb(212, 208, 208);
+    padding-left: 100px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.req{
+   
+    color: red;
+}
+
+.btn{
+    height: 2rem;
+    
+    font-size: 0.7rem;
+}
+.form-control{
+    height: 2rem;
+}
+label{
+    margin: 0px;
+}
+#product-f{
+margin-top: 1rem;
+}
+#optns{
+    position: relative;
+    height: 1.5rem;
+}
+#r-option1{
+    position: absolute;
+    left: 0px;
+     display: inline-block;
+    width: 50%;
+    
+ 
+}
+#r-option2{
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    width: 50%;
+    
+    
+}
+@media (max-width:480px){
+    #ttn{
+        display: inline-block;
+    }
+    #nav{
+        display: block;
+    }
+    #nav-content{
+        display: none;
+    }
+    #u-menu{
+        
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    #menu{
+        background: white;
+    }
+   #upper1,#upper2{
+       display: none;
+   } 
+   
+   .navbar-brand{
+       margin: 0;
+       height: auto;
+   }
+    #center{
+        
+        width: 100vw;
+    }
+    #cen-main{
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+    
+}
