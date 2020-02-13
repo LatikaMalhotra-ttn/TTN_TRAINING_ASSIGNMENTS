@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <script>
+var obj1 = {
+"a":{
+    'a1':"inner1",
+    'a2':"inner2"
+},
+"b":"second"
+};
+
+var obj2={};
+function deepCopying(objToBe){
+    var obj1Keys = Object.keys(objToBe);
+    for(var i=0;i<obj1Keys.length;i++){
+    if(typeof(obj1[obj1Keys[i]]) != Object)
+    {
+        
+        obj2[obj1Keys[i]]=obj1[obj1Keys[i]];
+    }
+    else{
+        var innerObj = obj1[obj1Keys[i]];
+        deepCopying(innerObj);
+    }
+}
+
+}
+
+deepCopying(obj1);
+console.log(obj2)
+
+
+
+    </script>
+</head>
+<body>
+    <h1>This is a test page and output is in console</h1>
+</body>
+</html>
