@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding:0px ;
+}
+#main-div{
+    border:1px solid black;
+    border-radius: 5px;
+    margin:auto ;
+    width: 300px;
+    margin-top:50px;
+}
+#main-heading{
+    background-color: rgb(174, 238, 79);
+    color: rgb(189, 175, 52);
+    border-top-right-radius:5px ;
+    border-top-left-radius: 5px;
+    padding:5px;
+    margin-bottom: 5px;
+}
+#margin-btn{
+    margin-left: 6px;
+    margin-bottom: 10px;
+    margin-top:6px;
+    border-radius: 5px;
+    background-color:rgb(243, 243, 139) ;
+    color: rgb(38, 243, 38);
+    padding:5px;
+}
+#margin-label{
+    margin-left: 6px;
+    padding-bottom: 5px;
+}
+#input-radius{
+    border-radius: 5px;
+    margin-left:5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width:80%;
+}
+#btn-a{
+    margin-left: 6px;
+    margin-bottom: 10px;
+    margin-top:6px;
+    display:none;
+    border-radius: 5px;
+    background-color:rgb(243, 243, 139) ;
+    color: rgb(38, 243, 38);
+    padding:5px;
+
+}
+#result-div{
+    margin-left: 6px;
+    margin-bottom: 10px;
+    margin-top:6px;
+}
+#result-div1{
+    color: rgb(230, 109, 109);
+    margin-left: 6px;
+    margin-bottom: 10px;
+    margin-top:6px;
+}
+#circle-div{
+    margin:auto;
+    background: black;
+}
+#res{
+    display: none;
+    color: blueviolet;
+    text-align: center;
+    padding:10px;
+}
