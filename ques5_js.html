@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <script>
+        var test = {
+            'name':'deepak',
+            'age':24,
+            'salary':6000,
+            'dob':'18/10/1994'
+        }
+        var Age20To29=[];
+        var Age30To39=[];
+        var Age40To49=[];
+        var Age50To60=[];
+
+        var filteredUserArr = [];
+        var salaryLess1000AgeGreater20Arr =[];
+        var userArr =[];
+        userArr[0]=test;
+        function submitDetails(){
+            var user = {};
+            user.name=document.getElementById('name').value;
+            user.age=document.getElementById('age').value;
+            user.salary=document.getElementById('salary').value;
+            user.dob=document.getElementById('dob').value;
+            userArr.push(user);
+            console.log(userArr)
+        }
+        function myFunct1(obj){
+            if(obj.salary>5000){
+                filteredUserArr.push(obj);
+            }
+
+        }
+        function myFunct2(obj){
+            if(obj.salary>1000 && obj.age>20){
+                salaryLess1000AgeGreater20Arr.push(obj);
+            }
+
+        }
+        function myFunct3(obj){
+            if(obj.age >=20 && obj.age<30){
+                Age20To29.push(obj);
+            }
+            else if(obj.age >=30 && obj.age<40){
+                Age30To39.push(obj);
+            }
+            else if(obj.age >=40 && obj.age<50){
+                Age40To49.push(obj);
+            }
+            else if(obj.age >=50 && obj.age<=60){
+                Age50To60.push(obj);
+            }
+        }
+
+        function filterEmployee(){
+            userArr.filter(myFunct1);
+            console.log(filteredUserArr);
+        }
+        function salaryLess1000AgeGreater20(){
+            userArr.filter(myFunct2);
+            console.log(salaryLess1000AgeGreater20Arr);
+
+
+        }
+        function grouping(){
+         userArr.filter(myFunct3) ;
+         
+        }
+
+    </script>
+
+</head>
+<body>
+    <div class="container">
+        <span>Enter Name:</span><input class="form-control" type="text" id='name'></br>
+        <span>Enter Age:</span><input class="form-control" type="number" id='age'></br>
+        <span>Enter Salary:</span><input class="form-control" type="number" id='salary'></br>
+        <span>Enter DOB:</span><input class="form-control" type="text" id='dob'>
+        <button onclick="submitDetails()" class="btn btn-primary" id='submit-btn'>Submit</button>
+
+        
+    </div>
+</body>
+</html>
