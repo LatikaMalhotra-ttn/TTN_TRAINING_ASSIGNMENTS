@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.main-div{
+    border:1px solid rgb(158, 154, 154);
+    border-radius: 5px;
+    margin:auto;
+    margin-top:50px;
+    width:300px;
+    height: auto;
+    /* padding: 10px; */
+}
+
+#main-heading{
+    color:rgb(124, 119, 119);
+    padding:5px;
+    margin-bottom: 10px;
+    background-color: rgb(206, 198, 198);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.margin-css{
+    margin:5px;
+}
+#palindrome-string{
+    width: 90%;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#s-msg{
+    margin-top:5px ;
+    margin-bottom: 5px;
+    color: rgb(46, 214, 46);
+}
+#u-msg{
+    margin-top:5px ;
+    margin-bottom: 5px;
+    color: rgb(236, 35, 35);
+}
+#success-msg{
+    display: none;
+}
+#unsucess-msg{
+    display: none;
+}
+.btn-check{
+    padding:5px;
+    margin: 5px;
+    border-radius: 5px;
+    color: rgb(65, 60, 60);
+    background-color: rgb(219, 211, 211);
+}
+#re{
+    display: none;
+}
