@@ -1,0 +1,8 @@
+C:\Users\Latika Malhotra\source\repos\Ques_8_classLib\Ques_8_classLib\bin\Debug\netstandard2.0\Ques_8_classLib.deps.json
+C:\Users\Latika Malhotra\source\repos\Ques_8_classLib\Ques_8_classLib\bin\Debug\netstandard2.0\Ques_8_classLib.dll
+C:\Users\Latika Malhotra\source\repos\Ques_8_classLib\Ques_8_classLib\bin\Debug\netstandard2.0\Ques_8_classLib.pdb
+C:\Users\Latika Malhotra\source\repos\Ques_8_classLib\Ques_8_classLib\obj\Debug\netstandard2.0\Ques_8_classLib.csprojAssemblyReference.cache
+C:\Users\Latika Malhotra\source\repos\Ques_8_classLib\Ques_8_classLib\obj\Debug\netstandard2.0\Ques_8_classLib.AssemblyInfoInputs.cache
+C:\Users\Latika Malhotra\source\repos\Ques_8_classLib\Ques_8_classLib\obj\Debug\netstandard2.0\Ques_8_classLib.AssemblyInfo.cs
+C:\Users\Latika Malhotra\source\repos\Ques_8_classLib\Ques_8_classLib\obj\Debug\netstandard2.0\Ques_8_classLib.dll
+C:\Users\Latika Malhotra\source\repos\Ques_8_classLib\Ques_8_classLib\obj\Debug\netstandard2.0\Ques_8_classLib.pdb
