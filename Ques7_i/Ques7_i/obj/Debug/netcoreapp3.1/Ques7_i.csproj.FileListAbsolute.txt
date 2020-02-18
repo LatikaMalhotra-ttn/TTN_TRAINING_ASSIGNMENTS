@@ -1,0 +1,11 @@
+C:\Users\Latika Malhotra\source\repos\Ques7_i\Ques7_i\bin\Debug\netcoreapp3.1\Ques7_i.exe
+C:\Users\Latika Malhotra\source\repos\Ques7_i\Ques7_i\bin\Debug\netcoreapp3.1\Ques7_i.deps.json
+C:\Users\Latika Malhotra\source\repos\Ques7_i\Ques7_i\bin\Debug\netcoreapp3.1\Ques7_i.runtimeconfig.json
+C:\Users\Latika Malhotra\source\repos\Ques7_i\Ques7_i\bin\Debug\netcoreapp3.1\Ques7_i.runtimeconfig.dev.json
+C:\Users\Latika Malhotra\source\repos\Ques7_i\Ques7_i\bin\Debug\netcoreapp3.1\Ques7_i.dll
+C:\Users\Latika Malhotra\source\repos\Ques7_i\Ques7_i\bin\Debug\netcoreapp3.1\Ques7_i.pdb
+C:\Users\Latika Malhotra\source\repos\Ques7_i\Ques7_i\obj\Debug\netcoreapp3.1\Ques7_i.csprojAssemblyReference.cache
+C:\Users\Latika Malhotra\source\repos\Ques7_i\Ques7_i\obj\Debug\netcoreapp3.1\Ques7_i.AssemblyInfoInputs.cache
+C:\Users\Latika Malhotra\source\repos\Ques7_i\Ques7_i\obj\Debug\netcoreapp3.1\Ques7_i.AssemblyInfo.cs
+C:\Users\Latika Malhotra\source\repos\Ques7_i\Ques7_i\obj\Debug\netcoreapp3.1\Ques7_i.dll
+C:\Users\Latika Malhotra\source\repos\Ques7_i\Ques7_i\obj\Debug\netcoreapp3.1\Ques7_i.pdb

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ques7_i/1.0.0": {
+        "runtime": {
+          "Ques7_i.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ques7_i/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
