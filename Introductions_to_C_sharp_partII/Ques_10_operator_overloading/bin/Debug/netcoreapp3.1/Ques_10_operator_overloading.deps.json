@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ques_10_operator_overloading/1.0.0": {
+        "runtime": {
+          "Ques_10_operator_overloading.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ques_10_operator_overloading/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

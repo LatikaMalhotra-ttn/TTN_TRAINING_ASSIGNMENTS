@@ -1,0 +1,10 @@
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_9\obj\Debug\netcoreapp3.1\Ques_9.AssemblyInfoInputs.cache
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_9\obj\Debug\netcoreapp3.1\Ques_9.AssemblyInfo.cs
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_9\bin\Debug\netcoreapp3.1\Ques_9.exe
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_9\bin\Debug\netcoreapp3.1\Ques_9.deps.json
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_9\bin\Debug\netcoreapp3.1\Ques_9.runtimeconfig.json
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_9\bin\Debug\netcoreapp3.1\Ques_9.runtimeconfig.dev.json
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_9\bin\Debug\netcoreapp3.1\Ques_9.dll
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_9\bin\Debug\netcoreapp3.1\Ques_9.pdb
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_9\obj\Debug\netcoreapp3.1\Ques_9.dll
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_9\obj\Debug\netcoreapp3.1\Ques_9.pdb

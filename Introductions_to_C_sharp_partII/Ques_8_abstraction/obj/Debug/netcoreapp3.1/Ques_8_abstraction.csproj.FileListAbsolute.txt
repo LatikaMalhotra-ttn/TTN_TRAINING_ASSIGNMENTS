@@ -1,0 +1,10 @@
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_8_abstraction\bin\Debug\netcoreapp3.1\Ques_8_abstraction.exe
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_8_abstraction\bin\Debug\netcoreapp3.1\Ques_8_abstraction.deps.json
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_8_abstraction\bin\Debug\netcoreapp3.1\Ques_8_abstraction.runtimeconfig.json
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_8_abstraction\bin\Debug\netcoreapp3.1\Ques_8_abstraction.runtimeconfig.dev.json
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_8_abstraction\bin\Debug\netcoreapp3.1\Ques_8_abstraction.dll
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_8_abstraction\bin\Debug\netcoreapp3.1\Ques_8_abstraction.pdb
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_8_abstraction\obj\Debug\netcoreapp3.1\Ques_8_abstraction.AssemblyInfoInputs.cache
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_8_abstraction\obj\Debug\netcoreapp3.1\Ques_8_abstraction.AssemblyInfo.cs
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_8_abstraction\obj\Debug\netcoreapp3.1\Ques_8_abstraction.dll
+C:\Users\Latika Malhotra\Desktop\New folder\Ques_8_abstraction\obj\Debug\netcoreapp3.1\Ques_8_abstraction.pdb

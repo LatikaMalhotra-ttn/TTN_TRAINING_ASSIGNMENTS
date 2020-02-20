@@ -1,0 +1,11 @@
+C:\Users\Latika Malhotra\Desktop\intro_to-c_sharp_II\Ques_1_interface\bin\Debug\netcoreapp3.1\Ques_1_interface.exe
+C:\Users\Latika Malhotra\Desktop\intro_to-c_sharp_II\Ques_1_interface\bin\Debug\netcoreapp3.1\Ques_1_interface.deps.json
+C:\Users\Latika Malhotra\Desktop\intro_to-c_sharp_II\Ques_1_interface\bin\Debug\netcoreapp3.1\Ques_1_interface.runtimeconfig.json
+C:\Users\Latika Malhotra\Desktop\intro_to-c_sharp_II\Ques_1_interface\bin\Debug\netcoreapp3.1\Ques_1_interface.runtimeconfig.dev.json
+C:\Users\Latika Malhotra\Desktop\intro_to-c_sharp_II\Ques_1_interface\bin\Debug\netcoreapp3.1\Ques_1_interface.dll
+C:\Users\Latika Malhotra\Desktop\intro_to-c_sharp_II\Ques_1_interface\bin\Debug\netcoreapp3.1\Ques_1_interface.pdb
+C:\Users\Latika Malhotra\Desktop\intro_to-c_sharp_II\Ques_1_interface\obj\Debug\netcoreapp3.1\Ques_1_interface.csprojAssemblyReference.cache
+C:\Users\Latika Malhotra\Desktop\intro_to-c_sharp_II\Ques_1_interface\obj\Debug\netcoreapp3.1\Ques_1_interface.AssemblyInfoInputs.cache
+C:\Users\Latika Malhotra\Desktop\intro_to-c_sharp_II\Ques_1_interface\obj\Debug\netcoreapp3.1\Ques_1_interface.AssemblyInfo.cs
+C:\Users\Latika Malhotra\Desktop\intro_to-c_sharp_II\Ques_1_interface\obj\Debug\netcoreapp3.1\Ques_1_interface.dll
+C:\Users\Latika Malhotra\Desktop\intro_to-c_sharp_II\Ques_1_interface\obj\Debug\netcoreapp3.1\Ques_1_interface.pdb
