@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<people>
+  <name>
+    <firstname>Latika</firstname>
+    <lastname>Malhotra</lastname>
+  </name>
+  <name>
+    <firstname>Deepak</firstname>
+    <lastname>kalra</lastname>
+  </name>
+  <name>
+    <firstname>Geetika</firstname>
+    <lastname>Sachdeva</lastname>
+  </name>
+  <name>
+    <firstname>Shubham</firstname>
+    <lastname>Malhotra</lastname>
+  </name>
+</people>
