@@ -1,0 +1,8 @@
+C:\Users\Latika Malhotra\Desktop\API_Session_ofc\Practise_home\EmployeeDataAccess\bin\Debug\netstandard2.0\EmployeeDataAccess.deps.json
+C:\Users\Latika Malhotra\Desktop\API_Session_ofc\Practise_home\EmployeeDataAccess\bin\Debug\netstandard2.0\EmployeeDataAccess.dll
+C:\Users\Latika Malhotra\Desktop\API_Session_ofc\Practise_home\EmployeeDataAccess\obj\Debug\netstandard2.0\EmployeeDataAccess.csprojAssemblyReference.cache
+C:\Users\Latika Malhotra\Desktop\API_Session_ofc\Practise_home\EmployeeDataAccess\obj\Debug\netstandard2.0\EmployeeDataAccess.AssemblyInfoInputs.cache
+C:\Users\Latika Malhotra\Desktop\API_Session_ofc\Practise_home\EmployeeDataAccess\obj\Debug\netstandard2.0\EmployeeDataAccess.AssemblyInfo.cs
+C:\Users\Latika Malhotra\Desktop\API_Session_ofc\Practise_home\EmployeeDataAccess\bin\Debug\netstandard2.0\EmployeeDataAccess.pdb
+C:\Users\Latika Malhotra\Desktop\API_Session_ofc\Practise_home\EmployeeDataAccess\obj\Debug\netstandard2.0\EmployeeDataAccess.dll
+C:\Users\Latika Malhotra\Desktop\API_Session_ofc\Practise_home\EmployeeDataAccess\obj\Debug\netstandard2.0\EmployeeDataAccess.pdb
