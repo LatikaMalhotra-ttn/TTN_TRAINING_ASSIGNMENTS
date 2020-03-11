@@ -1,0 +1,643 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Employee_Core copy",
+		"_postman_id": "60f7f5ab-3bf7-b1ee-b790-7355d85a30e5",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:60871/api/Employee/DeleteData/12",
+			"request": {
+				"url": "http://localhost:60871/api/Employee/DeleteData/12",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n            \"FirstName\": \"sonal\",\n            \n\n}"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "2c7d4b50-87b5-45d5-b1b7-5cc14a444234",
+					"name": "http://localhost:60871/api/Employee/DeleteData/12",
+					"originalRequest": {
+						"url": "http://localhost:60871/api/Employee/DeleteData/11",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n            \"FirstName\": \"sonal\",\n            \n\n}"
+						},
+						"description": ""
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "15",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 11 Mar 2020 04:40:10 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 241,
+					"body": "{\"status\":true}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:60871/api/Employee/UpdateData/11",
+			"request": {
+				"url": "http://localhost:60871/api/Employee/UpdateData/11",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n            \"FirstName\": \"sonal\",\n            \n\n}"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "ce5cc67e-f81a-44fe-aeb9-94748c467c79",
+					"name": "http://localhost:60871/api/Employee/UpdateData/11",
+					"originalRequest": {
+						"url": "http://localhost:60871/api/Employee/UpdateData/13",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n            \"FirstName\": \"chahat\",\n            \n\n}"
+						},
+						"description": ""
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "15",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 11 Mar 2020 04:41:31 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 96,
+					"body": "{\"status\":true}"
+				},
+				{
+					"id": "1a8a14e1-0329-4c58-80ba-be04c93367f0",
+					"name": "http://localhost:60871/api/Employee/UpdateData/11",
+					"originalRequest": {
+						"url": "http://localhost:60871/api/Employee/UpdateData/8",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n            \"FirstName\": \"akanksha\",\n            \n\n}"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "15",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 11 Mar 2020 04:47:11 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 96,
+					"body": "{\"status\":true}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:60871/api/Employee/InsertData",
+			"request": {
+				"url": "http://localhost:60871/api/Employee/InsertData",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n            \"FirstName\": \"neha\",\n            \"LastName\": \"aggarwal\",\n            \"Gender\": \"female\",\n            \"Salary\": 100000\n\n}"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "df456b61-3b7b-449d-8ae1-4d928054c7b3",
+					"name": "http://localhost:60871/api/Employee/InsertData",
+					"originalRequest": {
+						"url": "http://localhost:60871/api/Employee/InsertData",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n            \"FirstName\": \"deepanshu\",\n            \"LastName\": \"batra\",\n            \"Gender\": \"male\",\n            \"Salary\": 178000\n\n}"
+						},
+						"description": ""
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "15",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 11 Mar 2020 04:42:09 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 67,
+					"body": "{\"status\":true}"
+				},
+				{
+					"id": "64318c30-5a11-42da-b373-509f0dfa6c60",
+					"name": "http://localhost:60871/api/Employee/InsertData",
+					"originalRequest": {
+						"url": "http://localhost:60871/api/Employee/InsertData",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n            \"FirstName\": \"rashi\",\n            \"LastName\": \"sharma\",\n            \"Gender\": \"female\",\n            \"Salary\": 100000\n\n}"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "15",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 11 Mar 2020 04:47:40 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 100,
+					"body": "{\"status\":true}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:60871/api/Employee/Getdataid/1",
+			"request": {
+				"url": "http://localhost:60871/api/Employee/Getdataid/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n            \"FirstName\": \"shagun\",\n            \"LastName\": \"gupta\",\n            \"Gender\": \"female\",\n            \"Salary\": 400000\n\n}"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "0d01b716-2da9-4d43-a83a-44265df322f6",
+					"name": "http://localhost:60871/api/Employee/Getdataid/1",
+					"originalRequest": {
+						"url": "http://localhost:60871/api/Employee/Getdataid/1",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n            \"FirstName\": \"shagun\",\n            \"LastName\": \"gupta\",\n            \"Gender\": \"female\",\n            \"Salary\": 400000\n\n}"
+						},
+						"description": ""
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "102",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 11 Mar 2020 04:42:23 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 64,
+					"body": "{\"table\":[{\"id\":1,\"firstName\":\"latika\",\"lastName\":\"malhotra\",\"gender\":\"female\",\"salary\":600000.0000}]}"
+				},
+				{
+					"id": "e9cb8487-06db-43f2-9137-ecdf556302b1",
+					"name": "http://localhost:60871/api/Employee/Getdataid/1",
+					"originalRequest": {
+						"url": "http://localhost:60871/api/Employee/Getdataid/1",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n            \"FirstName\": \"shagun\",\n            \"LastName\": \"gupta\",\n            \"Gender\": \"female\",\n            \"Salary\": 400000\n\n}"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "102",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 11 Mar 2020 04:47:51 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 72,
+					"body": "{\"table\":[{\"id\":1,\"firstName\":\"latika\",\"lastName\":\"malhotra\",\"gender\":\"female\",\"salary\":600000.0000}]}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:60871/api/Employee/Getdata",
+			"request": {
+				"url": "http://localhost:60871/api/Employee/Getdata",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n            \"FirstName\": \"shagun\",\n            \"LastName\": \"gupta\",\n            \"Gender\": \"female\",\n            \"Salary\": 400000\n\n}"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "72f6cb0c-8f38-42ec-a80d-ebdfdf5f646b",
+					"name": "http://localhost:60871/api/Employee/Getdata",
+					"originalRequest": {
+						"url": "http://localhost:60871/api/Employee/Getdata",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n            \"FirstName\": \"shagun\",\n            \"LastName\": \"gupta\",\n            \"Gender\": \"female\",\n            \"Salary\": 400000\n\n}"
+						},
+						"description": ""
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "728",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 11 Mar 2020 04:42:33 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 60,
+					"body": "{\"table\":[{\"id\":1,\"firstName\":\"latika\",\"lastName\":\"malhotra\",\"gender\":\"female\",\"salary\":600000.0000},{\"id\":3,\"firstName\":\"rahul\",\"lastName\":\"aaaa\",\"gender\":\"female\",\"salary\":700000.0000},{\"id\":5,\"firstName\":\"dimple\",\"lastName\":\"duggal\",\"gender\":\"female\",\"salary\":900000.0000},{\"id\":8,\"firstName\":\"hina\",\"lastName\":\"setia\",\"gender\":\"female\",\"salary\":200000.0000},{\"id\":9,\"firstName\":\"geetangali\",\"lastName\":\"sachdeva\",\"gender\":\"female\",\"salary\":680000.0000},{\"id\":10,\"firstName\":\"punita\",\"lastName\":\"yadav\",\"gender\":\"female\",\"salary\":29999.0000},{\"id\":13,\"firstName\":\"chahat\",\"lastName\":\"aggarwal\",\"gender\":\"female\",\"salary\":100000.0000},{\"id\":14,\"firstName\":\"deepanshu\",\"lastName\":\"batra\",\"gender\":\"male\",\"salary\":178000.0000}]}"
+				},
+				{
+					"id": "9f11231f-69d9-432e-926d-a1bb5f214774",
+					"name": "http://localhost:60871/api/Employee/Getdata",
+					"originalRequest": {
+						"url": "http://localhost:60871/api/Employee/Getdata",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n            \"FirstName\": \"shagun\",\n            \"LastName\": \"gupta\",\n            \"Gender\": \"female\",\n            \"Salary\": 400000\n\n}"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "731",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 11 Mar 2020 04:48:00 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 77,
+					"body": "{\"table\":[{\"id\":1,\"firstName\":\"latika\",\"lastName\":\"malhotra\",\"gender\":\"female\",\"salary\":600000.0000},{\"id\":3,\"firstName\":\"rahul\",\"lastName\":\"aaaa\",\"gender\":\"female\",\"salary\":700000.0000},{\"id\":5,\"firstName\":\"dimple\",\"lastName\":\"duggal\",\"gender\":\"female\",\"salary\":900000.0000},{\"id\":8,\"firstName\":\"akanksha\",\"lastName\":\"setia\",\"gender\":\"female\",\"salary\":200000.0000},{\"id\":9,\"firstName\":\"geetangali\",\"lastName\":\"sachdeva\",\"gender\":\"female\",\"salary\":680000.0000},{\"id\":10,\"firstName\":\"punita\",\"lastName\":\"yadav\",\"gender\":\"female\",\"salary\":29999.0000},{\"id\":13,\"firstName\":\"chahat\",\"lastName\":\"aggarwal\",\"gender\":\"female\",\"salary\":100000.0000},{\"id\":15,\"firstName\":\"rashi\",\"lastName\":\"sharma\",\"gender\":\"female\",\"salary\":100000.0000}]}"
+				}
+			]
+		}
+	]
+}
