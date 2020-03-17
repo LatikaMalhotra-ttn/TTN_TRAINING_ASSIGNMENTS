@@ -1,0 +1,599 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Login copy",
+		"_postman_id": "aeb8b575-f84e-c7c3-dbf5-a0b44c43cfda",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44384/api/Login?UserName=admin&&pass=123",
+			"request": {
+				"url": {
+					"raw": "https://localhost:44384/api/Login?UserName=admin&pass=123&=",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44384",
+					"path": [
+						"api",
+						"Login"
+					],
+					"query": [
+						{
+							"key": "UserName",
+							"value": "admin",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "pass",
+							"value": "123",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "",
+							"value": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbmlzdHJhdG9yIiwiZW1haWwiOiJhZG1pbkBnbWFpbC5jb20iLCJqdGkiOiI0ZWRkOTU3Ny01MTE5LTRlMTQtOWY1NC05ZDc4YjlkZGM1MGIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbmlzdHJhdG9yIiwiZXhwIjoxNTg0NDc4MzcwLCJpc3MiOiJsYXRpa2EuY29tIiwiYXVkIjoibGF0aWthLmNvbSJ9.R4dML_Zl1RYxc4iwWWBYXoPyqNa2aD6JEdygqFAAhAI",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "ac14a98a-084c-4b87-a437-4807a7e4bf86",
+					"name": "https://localhost:44384/api/Login?UserName=admin&&pass=123",
+					"originalRequest": {
+						"url": {
+							"raw": "https://localhost:44384/api/Login?UserName=admin&&pass=123",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44384",
+							"path": [
+								"api",
+								"Login"
+							],
+							"query": [
+								{
+									"key": "UserName",
+									"value": "admin",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "pass",
+									"value": "123",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "",
+									"value": "",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbmlzdHJhdG9yIiwiZW1haWwiOiJhZG1pbkBnbWFpbC5jb20iLCJqdGkiOiI0ZWRkOTU3Ny01MTE5LTRlMTQtOWY1NC05ZDc4YjlkZGM1MGIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbmlzdHJhdG9yIiwiZXhwIjoxNTg0NDc4MzcwLCJpc3MiOiJsYXRpa2EuY29tIiwiYXVkIjoibGF0aWthLmNvbSJ9.R4dML_Zl1RYxc4iwWWBYXoPyqNa2aD6JEdygqFAAhAI",
+								"description": "",
+								"disabled": true
+							}
+						],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "397",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Tue, 17 Mar 2020 19:03:04 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "status",
+							"key": "status",
+							"value": "200",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 43,
+					"body": "{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbmlzdHJhdG9yIiwiZW1haWwiOiJhZG1pbkBnbWFpbC5jb20iLCJqdGkiOiJlY2FiZjU5Zi00MWI0LTQ5ZTAtOTEyZi1kZjgzNjU4ZWRmNTUiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbmlzdHJhdG9yIiwiZXhwIjoxNTg0NDc4OTg0LCJpc3MiOiJsYXRpa2EuY29tIiwiYXVkIjoibGF0aWthLmNvbSJ9.f2Kw1iVhUBpJHwXOyp55aITuRla2nYYUt1wdGZaduZs\"}"
+				}
+			]
+		},
+		{
+			"name": "https://localhost:44384/api/Login/Post",
+			"request": {
+				"url": "https://localhost:44384/api/Login/Post",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbmlzdHJhdG9yIiwiZW1haWwiOiJhZG1pbkBnbWFpbC5jb20iLCJqdGkiOiJmMjc2MWNkZC1lNDgyLTQ4YjgtODMwZS0zMWZhNmM4ZDU4YzIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbmlzdHJhdG9yIiwiZXhwIjoxNTg0NDc4NzI3LCJpc3MiOiJsYXRpa2EuY29tIiwiYXVkIjoibGF0aWthLmNvbSJ9.SLGpWXzqAny8TTY4yFfhZkyV6PGs19tmuyiGpWm-TM0",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "17a54c78-c48b-4b24-bcc9-71c81cd73e87",
+					"name": "https://localhost:44384/api/Login/Post",
+					"originalRequest": {
+						"url": "https://localhost:44384/api/Login/Post",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbmlzdHJhdG9yIiwiZW1haWwiOiJhZG1pbkBnbWFpbC5jb20iLCJqdGkiOiJlY2FiZjU5Zi00MWI0LTQ5ZTAtOTEyZi1kZjgzNjU4ZWRmNTUiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbmlzdHJhdG9yIiwiZXhwIjoxNTg0NDc4OTg0LCJpc3MiOiJsYXRpa2EuY29tIiwiYXVkIjoibGF0aWthLmNvbSJ9.f2Kw1iVhUBpJHwXOyp55aITuRla2nYYUt1wdGZaduZs",
+								"description": "",
+								"warning": ""
+							}
+						],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plainText",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "text/plain; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Tue, 17 Mar 2020 19:03:35 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "status",
+							"key": "status",
+							"value": "200",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 52,
+					"body": "Welcome : administrator"
+				}
+			]
+		},
+		{
+			"name": "https://localhost:44384/api/Login/GetValue",
+			"request": {
+				"url": "https://localhost:44384/api/Login/GetValue",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbmlzdHJhdG9yIiwiZW1haWwiOiJhZG1pbkBnbWFpbC5jb20iLCJqdGkiOiJmMjc2MWNkZC1lNDgyLTQ4YjgtODMwZS0zMWZhNmM4ZDU4YzIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbmlzdHJhdG9yIiwiZXhwIjoxNTg0NDc4NzI3LCJpc3MiOiJsYXRpa2EuY29tIiwiYXVkIjoibGF0aWthLmNvbSJ9.SLGpWXzqAny8TTY4yFfhZkyV6PGs19tmuyiGpWm-TM0",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "93edf7e8-a894-4c01-bda3-ed98d000b12c",
+					"name": "https://localhost:44384/api/Login/GetValue",
+					"originalRequest": {
+						"url": "https://localhost:44384/api/Login/GetValue",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbmlzdHJhdG9yIiwiZW1haWwiOiJhZG1pbkBnbWFpbC5jb20iLCJqdGkiOiJlY2FiZjU5Zi00MWI0LTQ5ZTAtOTEyZi1kZjgzNjU4ZWRmNTUiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbmlzdHJhdG9yIiwiZXhwIjoxNTg0NDc4OTg0LCJpc3MiOiJsYXRpa2EuY29tIiwiYXVkIjoibGF0aWthLmNvbSJ9.f2Kw1iVhUBpJHwXOyp55aITuRla2nYYUt1wdGZaduZs",
+								"description": "",
+								"warning": ""
+							}
+						],
+						"body": {}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "plainText",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Tue, 17 Mar 2020 19:03:57 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "status",
+							"key": "status",
+							"value": "403",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 27,
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "https://localhost:44384/api/Login?UserName=user&&pass=123",
+			"request": {
+				"url": {
+					"raw": "https://localhost:44384/api/Login?UserName=user&pass=123&=",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44384",
+					"path": [
+						"api",
+						"Login"
+					],
+					"query": [
+						{
+							"key": "UserName",
+							"value": "user",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "pass",
+							"value": "123",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "",
+							"value": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbmlzdHJhdG9yIiwiZW1haWwiOiJhZG1pbkBnbWFpbC5jb20iLCJqdGkiOiI0ZWRkOTU3Ny01MTE5LTRlMTQtOWY1NC05ZDc4YjlkZGM1MGIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbmlzdHJhdG9yIiwiZXhwIjoxNTg0NDc4MzcwLCJpc3MiOiJsYXRpa2EuY29tIiwiYXVkIjoibGF0aWthLmNvbSJ9.R4dML_Zl1RYxc4iwWWBYXoPyqNa2aD6JEdygqFAAhAI",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "8685cd04-18c8-4c72-9c00-700681e68394",
+					"name": "https://localhost:44384/api/Login?UserName=user&&pass=123",
+					"originalRequest": {
+						"url": {
+							"raw": "https://localhost:44384/api/Login?UserName=user&&pass=123",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44384",
+							"path": [
+								"api",
+								"Login"
+							],
+							"query": [
+								{
+									"key": "UserName",
+									"value": "user",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "pass",
+									"value": "123",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "",
+									"value": "",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbmlzdHJhdG9yIiwiZW1haWwiOiJhZG1pbkBnbWFpbC5jb20iLCJqdGkiOiI0ZWRkOTU3Ny01MTE5LTRlMTQtOWY1NC05ZDc4YjlkZGM1MGIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbmlzdHJhdG9yIiwiZXhwIjoxNTg0NDc4MzcwLCJpc3MiOiJsYXRpa2EuY29tIiwiYXVkIjoibGF0aWthLmNvbSJ9.R4dML_Zl1RYxc4iwWWBYXoPyqNa2aD6JEdygqFAAhAI",
+								"description": "",
+								"disabled": true
+							}
+						],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Tue, 17 Mar 2020 19:04:12 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "status",
+							"key": "status",
+							"value": "200",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 31,
+					"body": "{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnZW5lcmFsIHV1c2VyIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsImp0aSI6ImU5YTg4NGMyLTE0MWEtNGUwNS04NDkzLWQ3ODFiYzdkZjY3MCIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6InVzZXIiLCJleHAiOjE1ODQ0NzkwNTIsImlzcyI6ImxhdGlrYS5jb20iLCJhdWQiOiJsYXRpa2EuY29tIn0.x4Bwm8kpWmqd3rvHYeOGyz3_PeIynuX_leQAPbv49Dc\"}"
+				}
+			]
+		},
+		{
+			"name": "https://localhost:44384/api/Login/Post",
+			"request": {
+				"url": "https://localhost:44384/api/Login/Post",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnZW5lcmFsIHV1c2VyIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsImp0aSI6IjVhMGU0NWFjLTBkODAtNDA2MS04MTg4LTI4YzQxN2Q0MmFhOSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6InVzZXIiLCJleHAiOjE1ODQ0Nzg3ODMsImlzcyI6ImxhdGlrYS5jb20iLCJhdWQiOiJsYXRpa2EuY29tIn0.MSXrFWb6c-i5aYymiWToz6PiHGlRRsFBgwDmQQjo5SE",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "20cbf0e0-d229-4d29-bf2a-65624e0810ab",
+					"name": "https://localhost:44384/api/Login/Post",
+					"originalRequest": {
+						"url": "https://localhost:44384/api/Login/Post",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnZW5lcmFsIHV1c2VyIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsImp0aSI6ImU5YTg4NGMyLTE0MWEtNGUwNS04NDkzLWQ3ODFiYzdkZjY3MCIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6InVzZXIiLCJleHAiOjE1ODQ0NzkwNTIsImlzcyI6ImxhdGlrYS5jb20iLCJhdWQiOiJsYXRpa2EuY29tIn0.x4Bwm8kpWmqd3rvHYeOGyz3_PeIynuX_leQAPbv49Dc",
+								"description": "",
+								"warning": ""
+							}
+						],
+						"body": {}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "plainText",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Tue, 17 Mar 2020 19:04:33 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "status",
+							"key": "status",
+							"value": "403",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 26,
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "https://localhost:44384/api/Login/GetValue",
+			"request": {
+				"url": "https://localhost:44384/api/Login/GetValue",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnZW5lcmFsIHV1c2VyIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsImp0aSI6IjVhMGU0NWFjLTBkODAtNDA2MS04MTg4LTI4YzQxN2Q0MmFhOSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6InVzZXIiLCJleHAiOjE1ODQ0Nzg3ODMsImlzcyI6ImxhdGlrYS5jb20iLCJhdWQiOiJsYXRpa2EuY29tIn0.MSXrFWb6c-i5aYymiWToz6PiHGlRRsFBgwDmQQjo5SE",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "1cb8f834-df70-4cd5-b93a-85c3cf3d0cf2",
+					"name": "https://localhost:44384/api/Login/GetValue",
+					"originalRequest": {
+						"url": "https://localhost:44384/api/Login/GetValue",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnZW5lcmFsIHV1c2VyIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsImp0aSI6ImU5YTg4NGMyLTE0MWEtNGUwNS04NDkzLWQ3ODFiYzdkZjY3MCIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6InVzZXIiLCJleHAiOjE1ODQ0NzkwNTIsImlzcyI6ImxhdGlrYS5jb20iLCJhdWQiOiJsYXRpa2EuY29tIn0.x4Bwm8kpWmqd3rvHYeOGyz3_PeIynuX_leQAPbv49Dc",
+								"description": "",
+								"warning": ""
+							}
+						],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "32",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Tue, 17 Mar 2020 19:04:55 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "status",
+							"key": "status",
+							"value": "200",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 79,
+					"body": "[\"Hi, i'm in getValue function\"]"
+				}
+			]
+		}
+	]
+}
