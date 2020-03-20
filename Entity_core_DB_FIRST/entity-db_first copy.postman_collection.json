@@ -1,0 +1,455 @@
+{
+	"variables": [],
+	"info": {
+		"name": "entity-db_first copy",
+		"_postman_id": "45fc5ff1-3290-06cb-7cee-41310b1896ec",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:53021/api/Index/GetData",
+			"request": {
+				"url": "http://localhost:53021/api/Index/GetData",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "e4ecd697-22de-45e5-9035-d377a21046b1",
+					"name": "http://localhost:53021/api/Index/GetData",
+					"originalRequest": {
+						"url": "http://localhost:53021/api/Index/GetData",
+						"method": "GET",
+						"header": [],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "1591",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 20 Mar 2020 18:55:46 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 213,
+					"body": "[{\"id\":1,\"firstName\":\"latika\",\"lastName\":\"malhotra\",\"gender\":\"female\",\"location\":\"vikas-puri\",\"zipPin\":110018,\"tblOrder\":[{\"id\":2,\"customerId\":1,\"productId\":3,\"orderStatus\":false,\"orderDate\":\"2020-03-19T00:00:00\",\"product\":null},{\"id\":10,\"customerId\":1,\"productId\":2,\"orderStatus\":true,\"orderDate\":\"2020-03-11T00:00:00\",\"product\":null}]},{\"id\":2,\"firstName\":\"deepak\",\"lastName\":\"kalra\",\"gender\":\"male\",\"location\":\"rohini\",\"zipPin\":110056,\"tblOrder\":[{\"id\":3,\"customerId\":2,\"productId\":4,\"orderStatus\":true,\"orderDate\":\"2020-02-19T00:00:00\",\"product\":null},{\"id\":5,\"customerId\":2,\"productId\":6,\"orderStatus\":true,\"orderDate\":\"2020-02-14T00:00:00\",\"product\":null}]},{\"id\":3,\"firstName\":\"dimple\",\"lastName\":\"duggle\",\"gender\":\"female\",\"location\":\"patel nagar\",\"zipPin\":110056,\"tblOrder\":[{\"id\":1,\"customerId\":3,\"productId\":1,\"orderStatus\":true,\"orderDate\":\"2020-02-11T00:00:00\",\"product\":null},{\"id\":6,\"customerId\":3,\"productId\":1,\"orderStatus\":false,\"orderDate\":\"2020-03-19T00:00:00\",\"product\":null}]},{\"id\":4,\"firstName\":\"gitika\",\"lastName\":\"sachdeva\",\"gender\":\"female\",\"location\":\"uttam-nagar\",\"zipPin\":110043,\"tblOrder\":[{\"id\":7,\"customerId\":4,\"productId\":2,\"orderStatus\":true,\"orderDate\":\"2020-02-11T00:00:00\",\"product\":null}]},{\"id\":7,\"firstName\":\"sonal\",\"lastName\":\"kapoor\",\"gender\":\"female\",\"location\":\"uttar pradesh\",\"zipPin\":200018,\"tblOrder\":[]},{\"id\":8,\"firstName\":\"shubham\",\"lastName\":\"sachdeva\",\"gender\":\"male\",\"location\":\"shadra\",\"zipPin\":110034,\"tblOrder\":[]},{\"id\":9,\"firstName\":\"dhairya\",\"lastName\":\"aggarwal\",\"gender\":\"male\",\"location\":\"rohini\",\"zipPin\":110087,\"tblOrder\":[]}]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:53021/api/Index/GetData1/1",
+			"request": {
+				"url": "http://localhost:53021/api/Index/GetData1/1",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "092dbc6e-1a7d-4ca0-8ca2-f725d376555f",
+					"name": "http://localhost:53021/api/Index/GetData1/1",
+					"originalRequest": {
+						"url": "http://localhost:53021/api/Index/GetData1/1",
+						"method": "GET",
+						"header": [],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "487",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 20 Mar 2020 18:55:54 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 65,
+					"body": "{\"id\":1,\"firstName\":\"latika\",\"lastName\":\"malhotra\",\"gender\":\"female\",\"location\":\"vikas-puri\",\"zipPin\":110018,\"tblOrder\":[{\"id\":2,\"customerId\":1,\"productId\":3,\"orderStatus\":false,\"orderDate\":\"2020-03-19T00:00:00\",\"product\":{\"id\":3,\"productName\":\"TV\",\"brandName\":\"Samsung\",\"price\":12000,\"tblOrder\":[]}},{\"id\":10,\"customerId\":1,\"productId\":2,\"orderStatus\":true,\"orderDate\":\"2020-03-11T00:00:00\",\"product\":{\"id\":2,\"productName\":\"Refrigerator\",\"brandName\":\"LG\",\"price\":50000,\"tblOrder\":[]}}]}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:53021/api/Index/Insert",
+			"request": {
+				"url": "http://localhost:53021/api/Index/Insert",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstName\": \"dhairya\",\n    \"lastName\": \"aggarwal\",\n    \"gender\": \"male\",\n    \"location\": \"rohini\",\n    \"zipPin\": 110087\n    }"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "56af8d21-0b38-474e-9d74-58b9423e50e0",
+					"name": "http://localhost:53021/api/Index/Insert",
+					"originalRequest": {
+						"url": "http://localhost:53021/api/Index/Insert",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstName\": \"dhairya\",\n    \"lastName\": \"aggarwal\",\n    \"gender\": \"male\",\n    \"location\": \"rohini\",\n    \"zipPin\": 110087\n    }"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "15",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 20 Mar 2020 18:56:13 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 153,
+					"body": "{\"status\":true}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:53021/api/Index/Update/1",
+			"request": {
+				"url": "http://localhost:53021/api/Index/Update/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"CustomerId\":3\n    }"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "91e94213-f804-4d5a-940c-a1947c847b4a",
+					"name": "http://localhost:53021/api/Index/Update/1",
+					"originalRequest": {
+						"url": "http://localhost:53021/api/Index/Update/1",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"CustomerId\":4\n    }"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plainText",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "text/plain; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 20 Mar 2020 18:56:41 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 77,
+					"body": "Row Updated Successfully"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:53021/api/Index/DeleteCustId/5",
+			"request": {
+				"url": "http://localhost:53021/api/Index/DeleteCustId/5",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"CustomerId\":3\n    }"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "6c65bf02-f018-4d99-a2e8-e603676bab8b",
+					"name": "http://localhost:53021/api/Index/DeleteCustId/5",
+					"originalRequest": {
+						"url": "http://localhost:53021/api/Index/DeleteCustId/3",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"CustomerId\":3\n    }"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "15",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 20 Mar 2020 18:58:00 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 2982,
+					"body": "{\"status\":true}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:53021/api/Index/DeleteProdId/5",
+			"request": {
+				"url": "http://localhost:53021/api/Index/DeleteProdId/5",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"CustomerId\":3\n    }"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "73c0c622-ceeb-48e8-9586-3c546a2fcebc",
+					"name": "http://localhost:53021/api/Index/DeleteProdId/5",
+					"originalRequest": {
+						"url": "http://localhost:53021/api/Index/DeleteProdId/6",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"CustomerId\":3\n    }"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "15",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 20 Mar 2020 18:58:14 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 133,
+					"body": "{\"status\":true}"
+				}
+			]
+		}
+	]
+}
