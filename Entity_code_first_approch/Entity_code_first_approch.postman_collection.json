@@ -1,0 +1,685 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Entity_code_first_approch",
+		"_postman_id": "f1c82d98-aa9f-d3ad-e2a4-b9ff2a2bda23",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:56584/api/Index/Insert",
+			"request": {
+				"url": "http://localhost:56584/api/Index/Insert",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Customerid\": 5,\n    \"FirstName\": \"latika\",\n    \"LastName\": \"malhotra\",\n    \"Gender\": \"female\",\n    \"Phone\":1234567898,\n    \"Email\":\"l@tothenew.com\",\n    \"Street\": \"vikas puri\",\n    \"City\":\"new delhi\",\n    \"State\":\"delhi\",\n    \"Zip_Code\": 110018,\n    \"Orders\": [\n        {\n            \"OrderId\": 5,\n            \"CustomerID\": 5,\n            \"ProductID\": 2,\n            \"OrderStatus\": true,\n            \"Date\": \"2020-01-10\",\n            \"Product\": {\n                \"ProductId\": 2,\n                \"QuantityOrdered\":2,\n                \"ProductName\": \"Headphone\",\n                \"BrandName\": \"Apple\",\n                \"Price\": 12000,\n                \"tblOrder\": []\n            }\n        },\n        {\n            \"OrderId\": 6,\n            \"CustomerID\": 4,\n            \"ProductID\": 3,\n            \"QuantityOrdered\":2,\n            \"OrderStatus\": true,\n            \"Date\": \"2020-02-10\",\n            \"Product\": {\n                \"ProductId\": 3,\n                \"ProductName\": \"speaker\",\n                \"BrandName\": \"JBL\",\n                \"Price\": 112000,\n                \"tblOrder\": []\n            }\n        }\n        \n    ]\n}"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "96751e79-7f91-41c0-bd2d-8060e4e0bb51",
+					"name": "http://localhost:56584/api/Index/Insert",
+					"originalRequest": {
+						"url": "http://localhost:56584/api/Index/Insert",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Customerid\": 9,\n    \"FirstName\": \"shagun\",\n    \"LastName\": \"gupta\",\n    \"Gender\": \"female\",\n    \"Phone\":6734567898,\n    \"Email\":\"s@tothenew.com\",\n    \"Street\": \"rajouri garden\",\n    \"City\":\"new delhi\",\n    \"State\":\"delhi\",\n    \"Zip_Code\": 110025,\n    \"Orders\": [\n        {\n            \"OrderId\": 7,\n            \"CustomerID\":9 ,\n            \"ProductID\": 2,\n            \"OrderStatus\": true,\n            \"Date\": \"2020-01-10\",\n            \"Product\": {\n                \"ProductId\": 2,\n                \"QuantityOrdered\":2,\n                \"ProductName\": \"Headphone\",\n                \"BrandName\": \"Apple\",\n                \"Price\": 12000,\n                \"tblOrder\": []\n            }\n        },\n        {\n            \"OrderId\": 8,\n            \"CustomerID\": 9,\n            \"ProductID\": 3,\n            \"QuantityOrdered\":2,\n            \"OrderStatus\": true,\n            \"Date\": \"2020-02-10\",\n            \"Product\": {\n                \"ProductId\": 3,\n                \"ProductName\": \"speaker\",\n                \"BrandName\": \"JBL\",\n                \"Price\": 112000,\n                \"tblOrder\": []\n            }\n        }\n        \n    ]\n}"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "15",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Sat, 21 Mar 2020 16:06:55 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "expires",
+							"key": "expires",
+							"value": "-1",
+							"description": "Gives the date/time after which the response is considered stale"
+						},
+						{
+							"name": "pragma",
+							"key": "pragma",
+							"value": "no-cache",
+							"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-aspnet-version",
+							"key": "x-aspnet-version",
+							"value": "4.0.30319",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-sourcefiles",
+							"key": "x-sourcefiles",
+							"value": "=?UTF-8?B?QzpcVXNlcnNcTGF0aWthIE1hbGhvdHJhXERlc2t0b3BcRW50aXR5X2NvZGVfZmlyc3RfYXBwcm9jaFxFbnRpdHlfY29kZV9maXJzdF9hcHByb2NoXGFwaVxJbmRleFxJbnNlcnQ=?=",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 115,
+					"body": "{\"Status\":true}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:56584/api/Index/Insert",
+			"request": {
+				"url": "http://localhost:56584/api/Index/Insert",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Customerid\": 6,\n    \"FirstName\": \"dimple\",\n    \"LastName\": \"duggle\",\n    \"Gender\": \"female\",\n    \"Phone\":934567898,\n    \"Email\":\"d@tothenew.com\",\n    \"Street\": \"patel nagar\",\n    \"City\":\"new delhi\",\n    \"State\":\"delhi\",\n    \"Zip_Code\": 110056,\n    \"Orders\": [\n        {\n            \"OrderId\": 7,\n            \"CustomerID\": 6,\n            \"ProductID\": 2,\n            \"OrderStatus\": true,\n            \"Date\": \"2020-01-10\",\n            \"Product\": {\n                \"ProductId\": 2,\n                \"QuantityOrdered\":2,\n                \"ProductName\": \"Headphone\",\n                \"BrandName\": \"Apple\",\n                \"Price\": 12000,\n                \"tblOrder\": []\n            }\n        },\n        {\n            \"OrderId\": 6,\n            \"CustomerID\": 6,\n            \"ProductID\": 3,\n            \"QuantityOrdered\":2,\n            \"OrderStatus\": true,\n            \"Date\": \"2020-02-10\",\n            \"Product\": {\n                \"ProductId\": 3,\n                \"ProductName\": \"speaker\",\n                \"BrandName\": \"JBL\",\n                \"Price\": 112000,\n                \"tblOrder\": []\n            }\n        }\n        \n    ]\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:56584/api/Index/GetData",
+			"request": {
+				"url": "http://localhost:56584/api/Index/GetData",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Customerid\": 6,\n    \"FirstName\": \"dimple\",\n    \"LastName\": \"duggle\",\n    \"Gender\": \"female\",\n    \"Phone\":934567898,\n    \"Email\":\"d@tothenew.com\",\n    \"Street\": \"patel nagar\",\n    \"City\":\"new delhi\",\n    \"State\":\"delhi\",\n    \"Zip_Code\": 110056,\n    \"Orders\": [\n        {\n            \"OrderId\": 7,\n            \"CustomerID\": 6,\n            \"ProductID\": 2,\n            \"OrderStatus\": true,\n            \"Date\": \"2020-01-10\",\n            \"Product\": {\n                \"ProductId\": 2,\n                \"QuantityOrdered\":2,\n                \"ProductName\": \"Headphone\",\n                \"BrandName\": \"Apple\",\n                \"Price\": 12000,\n                \"tblOrder\": []\n            }\n        },\n        {\n            \"OrderId\": 6,\n            \"CustomerID\": 6,\n            \"ProductID\": 3,\n            \"QuantityOrdered\":2,\n            \"OrderStatus\": true,\n            \"Date\": \"2020-02-10\",\n            \"Product\": {\n                \"ProductId\": 3,\n                \"ProductName\": \"speaker\",\n                \"BrandName\": \"JBL\",\n                \"Price\": 112000,\n                \"tblOrder\": []\n            }\n        }\n        \n    ]\n}"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "2a0ad376-dfb8-4761-95b0-ad6ff3299419",
+					"name": "http://localhost:56584/api/Index/GetData",
+					"originalRequest": {
+						"url": "http://localhost:56584/api/Index/GetData",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Customerid\": 6,\n    \"FirstName\": \"dimple\",\n    \"LastName\": \"duggle\",\n    \"Gender\": \"female\",\n    \"Phone\":934567898,\n    \"Email\":\"d@tothenew.com\",\n    \"Street\": \"patel nagar\",\n    \"City\":\"new delhi\",\n    \"State\":\"delhi\",\n    \"Zip_Code\": 110056,\n    \"Orders\": [\n        {\n            \"OrderId\": 7,\n            \"CustomerID\": 6,\n            \"ProductID\": 2,\n            \"OrderStatus\": true,\n            \"Date\": \"2020-01-10\",\n            \"Product\": {\n                \"ProductId\": 2,\n                \"QuantityOrdered\":2,\n                \"ProductName\": \"Headphone\",\n                \"BrandName\": \"Apple\",\n                \"Price\": 12000,\n                \"tblOrder\": []\n            }\n        },\n        {\n            \"OrderId\": 6,\n            \"CustomerID\": 6,\n            \"ProductID\": 3,\n            \"QuantityOrdered\":2,\n            \"OrderStatus\": true,\n            \"Date\": \"2020-02-10\",\n            \"Product\": {\n                \"ProductId\": 3,\n                \"ProductName\": \"speaker\",\n                \"BrandName\": \"JBL\",\n                \"Price\": 112000,\n                \"tblOrder\": []\n            }\n        }\n        \n    ]\n}"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "1420",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Sat, 21 Mar 2020 16:07:12 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "expires",
+							"key": "expires",
+							"value": "-1",
+							"description": "Gives the date/time after which the response is considered stale"
+						},
+						{
+							"name": "pragma",
+							"key": "pragma",
+							"value": "no-cache",
+							"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-aspnet-version",
+							"key": "x-aspnet-version",
+							"value": "4.0.30319",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-sourcefiles",
+							"key": "x-sourcefiles",
+							"value": "=?UTF-8?B?QzpcVXNlcnNcTGF0aWthIE1hbGhvdHJhXERlc2t0b3BcRW50aXR5X2NvZGVfZmlyc3RfYXBwcm9jaFxFbnRpdHlfY29kZV9maXJzdF9hcHByb2NoXGFwaVxJbmRleFxHZXREYXRh?=",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 47,
+					"body": "[{\"CustomerId\":8,\"FirstName\":\"kiran\",\"LastName\":\"sachdeva\",\"Gender\":\"female\",\"Phone\":6545678,\"Email\":\"k@tothenew.com\",\"Street\":\"gandhi-nagar\",\"City\":\"new delhi\",\"State\":\"delhi\",\"Zip_Code\":110023,\"Orders\":[]},{\"CustomerId\":10,\"FirstName\":\"latika\",\"LastName\":\"malhotra\",\"Gender\":\"female\",\"Phone\":1234567898,\"Email\":\"l@tothenew.com\",\"Street\":\"vikas puri\",\"City\":\"new delhi\",\"State\":\"delhi\",\"Zip_Code\":110018,\"Orders\":[{\"OrderId\":10,\"OrderStatus\":true,\"Date\":\"2020-01-10\",\"QuantityOrdered\":0,\"CustomerID\":10,\"ProductID\":4,\"Product\":null},{\"OrderId\":11,\"OrderStatus\":true,\"Date\":\"2020-02-10\",\"QuantityOrdered\":2,\"CustomerID\":10,\"ProductID\":5,\"Product\":null}]},{\"CustomerId\":11,\"FirstName\":\"dimple\",\"LastName\":\"duggle\",\"Gender\":\"female\",\"Phone\":934567898,\"Email\":\"d@tothenew.com\",\"Street\":\"patel nagar\",\"City\":\"new delhi\",\"State\":\"delhi\",\"Zip_Code\":110056,\"Orders\":[{\"OrderId\":12,\"OrderStatus\":true,\"Date\":\"2020-01-10\",\"QuantityOrdered\":0,\"CustomerID\":11,\"ProductID\":6,\"Product\":null}]},{\"CustomerId\":12,\"FirstName\":\"shagun\",\"LastName\":\"gupta\",\"Gender\":\"female\",\"Phone\":0,\"Email\":\"s@tothenew.com\",\"Street\":\"rajouri garden\",\"City\":\"new delhi\",\"State\":\"delhi\",\"Zip_Code\":110025,\"Orders\":[{\"OrderId\":14,\"OrderStatus\":true,\"Date\":\"2020-01-10\",\"QuantityOrdered\":0,\"CustomerID\":12,\"ProductID\":8,\"Product\":null},{\"OrderId\":15,\"OrderStatus\":true,\"Date\":\"2020-02-10\",\"QuantityOrdered\":2,\"CustomerID\":12,\"ProductID\":9,\"Product\":null}]}]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:56584/api/Index/GetData1/8",
+			"request": {
+				"url": "http://localhost:56584/api/Index/GetData1/8",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Customerid\": 6,\n    \"FirstName\": \"dimple\",\n    \"LastName\": \"duggle\",\n    \"Gender\": \"female\",\n    \"Phone\":934567898,\n    \"Email\":\"d@tothenew.com\",\n    \"Street\": \"patel nagar\",\n    \"City\":\"new delhi\",\n    \"State\":\"delhi\",\n    \"Zip_Code\": 110056,\n    \"Orders\": [\n        {\n            \"OrderId\": 7,\n            \"CustomerID\": 6,\n            \"ProductID\": 2,\n            \"OrderStatus\": true,\n            \"Date\": \"2020-01-10\",\n            \"Product\": {\n                \"ProductId\": 2,\n                \"QuantityOrdered\":2,\n                \"ProductName\": \"Headphone\",\n                \"BrandName\": \"Apple\",\n                \"Price\": 12000,\n                \"tblOrder\": []\n            }\n        },\n        {\n            \"OrderId\": 6,\n            \"CustomerID\": 6,\n            \"ProductID\": 3,\n            \"QuantityOrdered\":2,\n            \"OrderStatus\": true,\n            \"Date\": \"2020-02-10\",\n            \"Product\": {\n                \"ProductId\": 3,\n                \"ProductName\": \"speaker\",\n                \"BrandName\": \"JBL\",\n                \"Price\": 112000,\n                \"tblOrder\": []\n            }\n        }\n        \n    ]\n}"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "ac98c17d-6c43-4cdc-8cf4-b484fc5eb24e",
+					"name": "http://localhost:56584/api/Index/GetData1/8",
+					"originalRequest": {
+						"url": "http://localhost:56584/api/Index/GetData1/8",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Customerid\": 6,\n    \"FirstName\": \"dimple\",\n    \"LastName\": \"duggle\",\n    \"Gender\": \"female\",\n    \"Phone\":934567898,\n    \"Email\":\"d@tothenew.com\",\n    \"Street\": \"patel nagar\",\n    \"City\":\"new delhi\",\n    \"State\":\"delhi\",\n    \"Zip_Code\": 110056,\n    \"Orders\": [\n        {\n            \"OrderId\": 7,\n            \"CustomerID\": 6,\n            \"ProductID\": 2,\n            \"OrderStatus\": true,\n            \"Date\": \"2020-01-10\",\n            \"Product\": {\n                \"ProductId\": 2,\n                \"QuantityOrdered\":2,\n                \"ProductName\": \"Headphone\",\n                \"BrandName\": \"Apple\",\n                \"Price\": 12000,\n                \"tblOrder\": []\n            }\n        },\n        {\n            \"OrderId\": 6,\n            \"CustomerID\": 6,\n            \"ProductID\": 3,\n            \"QuantityOrdered\":2,\n            \"OrderStatus\": true,\n            \"Date\": \"2020-02-10\",\n            \"Product\": {\n                \"ProductId\": 3,\n                \"ProductName\": \"speaker\",\n                \"BrandName\": \"JBL\",\n                \"Price\": 112000,\n                \"tblOrder\": []\n            }\n        }\n        \n    ]\n}"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "208",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Sat, 21 Mar 2020 16:07:20 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "expires",
+							"key": "expires",
+							"value": "-1",
+							"description": "Gives the date/time after which the response is considered stale"
+						},
+						{
+							"name": "pragma",
+							"key": "pragma",
+							"value": "no-cache",
+							"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-aspnet-version",
+							"key": "x-aspnet-version",
+							"value": "4.0.30319",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-sourcefiles",
+							"key": "x-sourcefiles",
+							"value": "=?UTF-8?B?QzpcVXNlcnNcTGF0aWthIE1hbGhvdHJhXERlc2t0b3BcRW50aXR5X2NvZGVfZmlyc3RfYXBwcm9jaFxFbnRpdHlfY29kZV9maXJzdF9hcHByb2NoXGFwaVxJbmRleFxHZXREYXRhMVw4?=",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 46,
+					"body": "{\"CustomerId\":8,\"FirstName\":\"kiran\",\"LastName\":\"sachdeva\",\"Gender\":\"female\",\"Phone\":6545678,\"Email\":\"k@tothenew.com\",\"Street\":\"gandhi-nagar\",\"City\":\"new delhi\",\"State\":\"delhi\",\"Zip_Code\":110023,\"Orders\":null}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:56584/api/Index/Update/10",
+			"request": {
+				"url": "http://localhost:56584/api/Index/Update/10",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"CustomerId\":10\n}"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "4414f10c-3f97-4d54-a4eb-cfc85fd7e7aa",
+					"name": "http://localhost:56584/api/Index/Update/10",
+					"originalRequest": {
+						"url": "http://localhost:56584/api/Index/Update/10",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"CustomerId\":10\n}"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "26",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Sat, 21 Mar 2020 16:07:34 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "expires",
+							"key": "expires",
+							"value": "-1",
+							"description": "Gives the date/time after which the response is considered stale"
+						},
+						{
+							"name": "pragma",
+							"key": "pragma",
+							"value": "no-cache",
+							"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-aspnet-version",
+							"key": "x-aspnet-version",
+							"value": "4.0.30319",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-sourcefiles",
+							"key": "x-sourcefiles",
+							"value": "=?UTF-8?B?QzpcVXNlcnNcTGF0aWthIE1hbGhvdHJhXERlc2t0b3BcRW50aXR5X2NvZGVfZmlyc3RfYXBwcm9jaFxFbnRpdHlfY29kZV9maXJzdF9hcHByb2NoXGFwaVxJbmRleFxVcGRhdGVcMTA=?=",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 52,
+					"body": "\"Row Updated Successfully\""
+				}
+			]
+		},
+		{
+			"name": "http://localhost:56584/api/Index/DeleteCustId/9",
+			"request": {
+				"url": "http://localhost:56584/api/Index/DeleteCustId/9",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"CustomerId\":10\n}"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "28f8286f-b64e-4ae1-94dc-438caace5df7",
+					"name": "http://localhost:56584/api/Index/DeleteCustId/9",
+					"originalRequest": {
+						"url": "http://localhost:56584/api/Index/DeleteCustId/12",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"CustomerId\":10\n}"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "15",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Sat, 21 Mar 2020 16:08:32 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "expires",
+							"key": "expires",
+							"value": "-1",
+							"description": "Gives the date/time after which the response is considered stale"
+						},
+						{
+							"name": "pragma",
+							"key": "pragma",
+							"value": "no-cache",
+							"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-aspnet-version",
+							"key": "x-aspnet-version",
+							"value": "4.0.30319",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-sourcefiles",
+							"key": "x-sourcefiles",
+							"value": "=?UTF-8?B?QzpcVXNlcnNcTGF0aWthIE1hbGhvdHJhXERlc2t0b3BcRW50aXR5X2NvZGVfZmlyc3RfYXBwcm9jaFxFbnRpdHlfY29kZV9maXJzdF9hcHByb2NoXGFwaVxJbmRleFxEZWxldGVDdXN0SWRcMTI=?=",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 5709,
+					"body": "{\"Status\":true}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:56584/api/Index/DeleteProdId/7",
+			"request": {
+				"url": "http://localhost:56584/api/Index/DeleteProdId/7",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"CustomerId\":10\n}"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "c20eb0f1-273d-405a-9391-b19e33546aaf",
+					"name": "http://localhost:56584/api/Index/DeleteProdId/7",
+					"originalRequest": {
+						"url": "http://localhost:56584/api/Index/DeleteProdId/6",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"CustomerId\":10\n}"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "15",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Sat, 21 Mar 2020 16:09:23 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "expires",
+							"key": "expires",
+							"value": "-1",
+							"description": "Gives the date/time after which the response is considered stale"
+						},
+						{
+							"name": "pragma",
+							"key": "pragma",
+							"value": "no-cache",
+							"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "x-aspnet-version",
+							"key": "x-aspnet-version",
+							"value": "4.0.30319",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-sourcefiles",
+							"key": "x-sourcefiles",
+							"value": "=?UTF-8?B?QzpcVXNlcnNcTGF0aWthIE1hbGhvdHJhXERlc2t0b3BcRW50aXR5X2NvZGVfZmlyc3RfYXBwcm9jaFxFbnRpdHlfY29kZV9maXJzdF9hcHByb2NoXGFwaVxJbmRleFxEZWxldGVQcm9kSWRcNg==?=",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 5735,
+					"body": "{\"Status\":true}"
+				}
+			]
+		}
+	]
+}
