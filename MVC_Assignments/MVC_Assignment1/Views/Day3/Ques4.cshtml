@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Day3 - Ques4";
+}
+
+
+<h1>Day 3- Ques 4</h1>
+
+
+<div class="card border-info mb-3" style="min-width: 18rem;">
+    <div class="card-header">
+        Explain Routing and how to use Attribute routing and implement below:-
+        <ul>
+            <li>
+                "https://localhost:5340/u/1.html"   - Controller = User, UserId = 1
+            </li>
+            <li>
+                "https://localhost:5340/u/1/Detail" - Controller = User,  UserId= 1, Action - Detail
+            </li>
+        </ul>
+    </div>
+    <div class="card-body text-info">
+        <h5 class="card-title">Routing</h5>
+        <p class="card-text">
+            Routing is the process of directing an HTTP request to a controller and the functionality of
+            this processing is implemented in System.Web.Routing
+        </p>
+        <hr />
+        <h5 class="card-title">Attribute Routing</h5>
+        <p class="card-text">
+            Actions which do not have Route attribute for defining attribute-based routing will not be the part
+            of attribute routing. In this way they can’t be access from outside as a URL.
+        </p>
+        <hr />
+        <h5 class="card-title">The first type of attribute routing can be seen by click th below Link</h5>
+        <p class="card-text">
+            <a href="http://localhost:51276/Employees/1">Click</a>
+
+        </p>
+        <hr />
+        <h5 class="card-title">The second type of attribute routing can be seen by click th below Link</h5>
+        <p class="card-text">
+        <p class="card-text">
+            <a href="http://localhost:51276/Employees/1/Details_Checking_Attribute_Routing_Again">Click</a>
+
+        </p>
+        </p>
+    </div>
+</div>
+
+

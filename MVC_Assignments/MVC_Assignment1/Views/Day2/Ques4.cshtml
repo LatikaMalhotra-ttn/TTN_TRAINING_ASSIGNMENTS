@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Day2 - Ques4";
+}
+
+
+<h1>Day 2- Ques 4</h1>
+
+<div class="card border-warning mb-3" style="min-width: 18rem;">
+    <div class="card-header">Explain Layout and how to set layout into view from Controller, View or globally?</div>
+    <div class="card-body text-warning">
+        <h5 class="card-title">Layout</h5>
+        <p class="card-text">
+            Layout is the Design of the page which we want to show to the user.
+            We can set layout from the View as Layout = "~/Views/Shared/_MainLayout.cshtml";
+            .Or we can also add it globally to all the views by adding it to the _viewstart.cshtml file.
+            Over here We have done this by setting our layout globally
+        </p>
+        <p class="card-text">
+            We can add Layout directly from the controller when we add a View from the action method.In that 
+            we have to select the layout from the pop-up box.
+        </p>
+    </div>
+</div>
+
+
+<a href='@Url.Action("Index","Day1")'>Go Back To Main Page</a>

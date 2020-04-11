@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Day2 - Ques5";
+}
+
+
+<h1>Day 2- Ques 5</h1>
+
+
+<div class="card border-info mb-3" style="min-width: 18rem;">
+    <div class="card-header">What is bundling and how to use bundling in view?</div>
+    <div class="card-body text-info">
+        <h5 class="card-title">Bundling</h5>
+        <p class="card-text">
+            When we have to make the collectiopn of all the css and scripts being used so that it is becomes 
+            easy for us to use it. So Bundling is the process of making a bundle of the style sheeets or script 
+            files under one name and register them in the Bundle Config file which is present in the App_Start folder.
+            Over here I have implemented it by making the bundles of the .css and the .js files in my project and 
+            added them to the main layout as Styles.Render("~/bundle/css") and  Scripts.Render("~/bundle/script")
+        </p>
+    </div>
+</div>
+
+
+<a href='@Url.Action("Index","Day1")'>Go Back To Main Page</a>

@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Day3 - Ques1";
+}
+
+
+<h1>Day 3- Ques 1</h1>
+
+
+<div class="card border-light mb-3" style="min-width: 18rem;">
+    <div class="card-header">
+        Explain different types of filters and explain the ordering 
+        of filters and how to set order when we use the same type of
+        filter we have used?
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">There are four different types of fiilters which are used. Namely:-</h5>
+        <p class="card-text">
+            <ul>
+                <li>
+                    Authorization filters: It performs authentication and authorizes before executing action method.
+                    Example Of Inbuilt filters are:-[Authorize], [RequireHttps].Interface which is used is:-IAuthorizationFilter
+                </li>
+                <li>
+                    Action filters: It performs some operation before and after an action method executes.
+                    .Interface which is used is:-IActionFilter
+                </li>
+                <li>
+                    Result filters: It performs some operation before or after the execution of view result.
+                    Example Of Inbuilt filters are:-[OutputCache].Interface which is used is:-IResultFilter
+                </li>
+                <li>
+                    Exception filters: It Performs some operation if there is an unhandled exception thrown during
+                    the execution of the ASP.NET MVC pipeline.Example Of Inbuilt filters are:-[HandleError].Interface which
+                    is used is:-IExceptionFilter
+                </li>
+            </ul>
+
+        </p>
+
+        <p class="card-text">
+            The order in which they are called is mentioned below:-
+            <ol>
+                <li>Authorization filters</li>
+                <li>Action filters</li>
+                <li>Result filters </li>
+                <li>Exception filters:</li>
+            </ol>
+        </p>
+        <p class="card-text">
+            The execution can be seen in the Day3 Controller
+        </p>
+    </div>
+</div>

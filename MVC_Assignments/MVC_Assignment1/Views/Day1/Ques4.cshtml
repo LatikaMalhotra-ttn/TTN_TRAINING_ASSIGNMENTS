@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Day 1 - Ques4";
+}
+
+
+<h1>Day1- Ques4</h1>
+
+<div class="card border-success mb-3" style="min-width: 18rem;">
+    <div class="card-header">Why we use App_Start, App_Data and Shared Folder?</div>
+    <div class="card-body text-success">
+        <h5 class="card-title">App_Data</h5>
+        <p class="card-text">
+            The App_Data folder of MVC application is used to contain the application related data files like .mdf files,
+            LocalDB, and XML files, etc. IIS never going to serve files from this App_Data folder.
+        </p>
+
+        <h5 class="card-title">App_Start</h5>
+        <p class="card-text">
+            The App_Start folder of MVC application is used to contain the class files which are needed to be executed
+            at the time the application starts. The classes like BundleConfig, FilterConfig, IdentityConfig, RouteConfig,
+            and Startup.Auth etc. are stored within this folder.
+        </p>
+
+        <h5 class="card-title">Shared Folder</h5>
+        <p class="card-text">
+            The Shared Folder in MVC is used to contain all the views which are needed to be shared by different controllers
+            e.g. error files, layout files or any common page which is to shown from any action
+        </p>
+    </div>
+</div>
+
+<a href='@Url.Action("Index","Day1")'>Go Back To Main Page</a>

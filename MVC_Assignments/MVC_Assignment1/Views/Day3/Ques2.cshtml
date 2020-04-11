@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Day3 - Ques2";
+}
+
+
+<h1>Day 3- Ques 2</h1>
+
+<div class="card border-dark mb-3" style="min-width: 18rem;">
+    <div class="card-header"> How to pass view from the filter and share one example of IExceptionfilter</div>
+    <div class="card-body text-dark">
+        <h5 class="card-title">Dark card title</h5>
+        <p class="card-text">
+            We can pass a view from the filter by using iException ffilter and implementing its OnExecuting method
+            by inherting the FilterAttribute,IExceptionFilter class .
+        </p>
+        <p class="card-text">
+            Click the below button to see the implementaion of the IException Filter <br />
+            It will redirect you to the error page but it is calling MyError action from the Day3 Controller.
+        </p>
+        @Html.ActionLink("Click Here ", "Error_page", "day3", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+    </div>
+</div>
+

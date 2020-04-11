@@ -1,0 +1,69 @@
+﻿@model MVC_Assignment1.Models.Student
+
+<h2>Fill in the Student's Details</h2>
+
+<br />
+<section>
+    <h2>Type1: Fill data to pass to the controller using Request  : </h2>
+    @using (Html.BeginForm("Create_Using_Request", "Day1"))
+    {
+        <label>Roll Number :</label>
+        <input type="number" name="Roll_Number" placeholder="eg-2112" />
+        <br />
+        <label>Student Name:</label>
+        <input type="text" name="Student_Name" placeholder="eg-latika" />
+        <br />
+        <label>Phone Number: </label>
+        <input type="number" name="Phone_Number" placeholder="eg-5658768789" />
+        <br />
+        <input type="submit" value="Submit" class="btn btn-primary" />
+    }
+</section>
+
+
+<br />
+<br />
+
+<section>
+    <h2>Type2: Fill data to pass to the controller using Parameter  : </h2>
+    @using (Html.BeginForm("Create_Using_Parameter", "Day1"))
+    {
+        <label>Roll Number :</label>
+        <input type="number" name="Roll_Number" placeholder="eg-2112" />
+        <br />
+        <label>Student Name:</label>
+        <input type="text" name="Student_Name" placeholder="eg-latika" />
+        <br />
+        <label>Phone Number: </label>
+        <input type="number" name="Phone_Number" placeholder="eg-5658768789" />
+        <br />
+        <input type="submit" value="Submit" class="btn btn-primary" />
+    }
+</section>
+<br />
+<br />
+<section>
+    <h2>Type3: Please Fill the data to pass to the controller with FormCollection  : </h2>
+    @using (Html.BeginForm("Create_Using_Form_Collection", "Day1"))
+    {
+        <label>Roll Number :</label>
+        <input type="number" name="Roll_Number" placeholder="eg-2112" />
+        <br />
+        <label>Student Name:</label>
+        <input type="text" name="Student_Name" placeholder="eg-latika" />
+        <br />
+        <label>Phone Number: </label>
+        <input type="number" name="Phone_Number" placeholder="eg-5658768789" />
+        <br />
+        <input type="submit" value="Submit" class="btn btn-primary" />
+    }
+</section>
+
+
+<br/>
+    <br/>
+
+<div>
+
+    @Html.ActionLink("Back to List", "Index")
+</div>

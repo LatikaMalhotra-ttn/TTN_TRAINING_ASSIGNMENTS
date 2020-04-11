@@ -1,0 +1,53 @@
+﻿@{ 
+    ViewBag.Title = "Day1 - Ques5";
+}
+
+
+<h1>Day 1- Ques 5</h1>
+
+
+<div class="card border-dark mb-3" style="min-width: 18rem;">
+    <div class="card-header">Use of Global. Asax and difference b/w global Web config and View Web Config?</div>
+    <div class="card-body text-dark">
+        <h5 class="card-title">Global.asax</h5>
+        <p class="card-text">
+            Global.asax allows you to write code that runs in response to application level events, such as
+            Application_BeginRequest, application_start, application_error, session_start, session_end etc.
+            The Global.asax file is configured so that any direct HTTP request (via URL) is rejected automatically,
+            so users cannot download or view its contents. The ASP.NET page framework recognizes automatically any 
+            changes that are made to the Global.asax file. The framework reboots the application, which includes 
+            closing all browser sessions, flushes all state information, and restarts the application domain.
+
+        </p>
+    </div>
+    <div class="card-body text-dark">
+        <h5 class="card-title">Web.Config</h5>
+        <p class="card-text">
+            Global.asax allows you to write code that runs in response to application level events, such as
+            Application_BeginRequest, application_start, application_error, session_start, session_end etc.
+
+        </p>
+    </div>
+    <div class="card-body text-dark">
+        <h5 class="card-title">View Web.config</h5>
+        <p class="card-text">
+
+            The Web.Config in the Views folder is a good way to declare namespaces specifically for the views.
+            In a web application it is very possible that almost every view gets a ViewModel (instead of your actual model)
+            passed to it. Declaring the full namespace after model or having the same using App.Web.Viewmodels
+            gets tedious.This is way, all viewmodels are automatically available in the shared web config file and you
+            don't have to do extra work to get the real models in scope.
+        </p>
+        <p>
+            Also, usually an application can get a lot of extension-methods specifically for use in the view
+            .It makes sense to define the namespace to this extension class in the /Views/Web.Config.
+         </p>
+        <p>
+            Whereas the global web config file is used to manage various settings that define a website. 
+            The settings are stored in XML files that are separate from your application code. 
+            In this way you can configure settings independently from your code.
+        </p>
+    </div>
+</div>
+
+<a href='@Url.Action("Index","Day1")'>Go Back To Main Page</a>

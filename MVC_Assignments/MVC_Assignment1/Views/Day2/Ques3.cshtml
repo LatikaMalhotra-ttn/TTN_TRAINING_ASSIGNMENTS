@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Day2 - Ques3";
+}
+
+
+@section RenderSectionIfRequired{
+    <h1>Day 2- Ques 3</h1>
+    }
+
+    <div class="card border-success mb-3" style="min-width: 18rem;">
+        <div class="card-header">
+            Explain Render Section and CShtml function with examples.
+            Why do we use the "Bind" attribute in the action parameter?
+        </div>
+
+        <div class="card-body text-success">
+
+            <h5 class="card-title">Render Section</h5>
+            <p class="card-text">
+                Render Section is used to render any section in the child request.
+                Implemented as the above heading is visible from the render section only.
+            </p>
+
+            <hr />
+            <h5 class="card-title">Cshtml fnction</h5>
+            <p class="card-text">
+                The usage is shown below
+            </p>
+
+
+            @{
+                var print = "";
+                var text = 10;
+                if (text % 2 == 0)
+                {
+                    print = "It is a even umber";
+                }
+                else
+                {
+                    print = "It is a odd umber";
+                }
+            }
+
+            @{
+                var statement = "This text is coming from cshtml function only and the next line is also coming " +
+                "              from cshtml function in hich we have checked wheather it is off number or even number";
+            }
+
+            <b>@statement</b>
+            <br />
+            <b>@print</b>
+
+            <hr />
+            <h3 class="card-title">Bind attribute</h3>
+            <p class="card-text">
+                Click the button below to see where i have used bind attribute. It is used in employee table in edit and
+                create function. In these function i have show how i have binded the required data beside including the complete
+                information/data.
+            </p>
+            <a href='@Url.Action("Index","Employees")' class="btn btn-primary">Click Me to see the usage</a>
+
+
+
+        </div>
+
+</div>
+    <a href='@Url.Action("Index","Day1")'>Go Back To Main Page</a>

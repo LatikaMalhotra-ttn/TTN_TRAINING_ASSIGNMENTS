@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Day1 - Ques2";
+}
+
+    <h1>Day 1- Ques 2(Explain MVC Application life Cycle?)</h1>
+    <div class="card mb-3">
+        <img class="card-img-top" src="~/Temp/images/MVC_LIFE_CYCLE.png" alt="Card image cap">
+        <div class="card-body">
+            <h3 class="card-title">The MVC Application life Cycle Has 2 Major Components:</h3>
+            <p class="card-text">
+                
+                <ol>
+                    <li>
+                        Creating Request Object: The request object creation has four major stepNamely:-
+                        <ul>
+                            <li>
+                                Fill Route:- MVC requests are mapped to route tables which in turn tells
+                                which controller and action to be invoked. So if the request is the first request
+                                the first thing is to fill the route table with routes collection.
+                                This filling of route table happens in the global.asax file
+                            </li>
+                            <li>
+                                Fetch route:- Depending on the URL sent "UrlRoutingModule" searches the route
+                                table to create "RouteData" object which has the details of which controller and 
+                                action to invoke.
+                            </li>
+                            <li>
+                                Request context created: - The "RouteData" object is used to create the "RequestContext"
+                                object.
+                            </li>
+                            <li>
+                                Controller instance created: - This request object is sent to "MvcHandler" instance to 
+                                create the controller class instance. Once the controller class object is created it calls
+                                the "Execute" method of the controller class.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Creating Response object: - This phase has two steps executing the action and finally sending the
+                        response as a result to the view.
+                        <ul>
+                            <li>
+                                Execute Action: - The "ControllerActionInvoker" determines which action to executed and
+                                executes the action.
+                            </li>
+                            <li>
+                                Result sent: - The action method executes and creates the type of result which can be a
+                                view result , file result , JSON result etc.
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </p>
+            
+            
+            
+        </div>
+    </div>
+
+
+
+
+
+    <a href='@Url.Action("Index","Day1")'>Go Back To Main Page</a>

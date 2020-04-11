@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "Day1 - Ques3";
+}
+
+
+<h1>Day1- Ques3</h1>
+<div class="card border-primary mb-3" style="min-width: 18rem;">
+    <div class="card-header">How to pass data from Controller to view and view to the controller with Example. 
+                             How to call and pass data from one controller to another controller?
+    </div>
+    <div class="card-body text-primary">
+        <h5 class="card-title">Data can be passed from controller to view in 3 ways namely:</h5>
+        <p class="card-text">
+            <ol>
+                <li>
+                    View Data: ViewData is a dictionary object to pass the data from Controller to View
+                    where data is passed in the form of key-value pair. And typecasting is required to read
+                    the data in View if the data is complex and we need to ensure null check to avoid null exceptions
+                </li>
+                <li>
+                    View Bag:ViewBag is a dynamic object to pass the data from Controller to View.
+                    And, this will pass the data as a property of object ViewBag. And we have no need
+                    to typecast to read the data or for null checking. The scope of ViewBag is permitted
+                    to the current request and the value of ViewBag will become null while redirecting.
+                </li>
+                <li>
+                    Temp Data:TempData is a dictionary object to pass the data from one action to other action
+                    in the same Controller or different Controllers.
+
+                    <a href='@Url.Action("Passing_Data_From_Controller_ToView","Day1")'>Click here to see the example</a>
+                </li>
+            </ol>
+        </p>
+        <h5 class="card-title">Data can be passed from view to controller in 3 ways namely:</h5>
+        <p class="card-text">
+            <ol>
+                <li>
+                    Using Request
+                </li>
+                <li>
+                    Using Parameter
+                </li>
+                <li>
+                    Using Form collection
+
+                    <a href='@Url.Action("Passing_Data_From_View_To_controller","Day1")'>Click here to see the example</a>
+                </li>
+            </ol>
+        </p>
+        <h5 class="card-title">Data can be passed from one controller to another controller in 3 ways namely:</h5>
+        <p class="card-text">
+            <ol>
+                <li>
+                    Through Query String 
+                </li>
+                <li>
+                    Through TempData
+                </li>
+                <li>
+                    Through Rout Parameter
+
+                
+                </li>
+            </ol>
+        </p>
+    </div>
+
+    <a href='@Url.Action("Index","Day1")'>Go Back To Main Page</a>

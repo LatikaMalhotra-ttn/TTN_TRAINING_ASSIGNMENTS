@@ -1,0 +1,36 @@
+﻿@using System.Web.Optimization
+<!doctype html>
+<html lang="en">
+<head>
+    <title>MVC Assignment - @ViewBag.Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <div class="wrapper d-flex align-items-stretch">
+        @Html.Partial("_sidebar")
+
+        <!-- Page Content  -->
+        <div id="content" class="p-4 p-md-5">
+             @{Html.RenderPartial("_NavBar");}
+
+
+          
+            @RenderBody()
+        </div>
+    </div>
+
+
+    @Styles.Render("~/bundle/css") @*This is the use of bundles I have created in the Bundle Config.*@
+    @Scripts.Render("~/bundle/script")
+
+
+
+</body>
+</html>

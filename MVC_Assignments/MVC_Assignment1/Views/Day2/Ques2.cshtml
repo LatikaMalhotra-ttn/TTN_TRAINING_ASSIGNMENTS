@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Day2 - Ques2";
+}
+
+
+<h1>Day 2- Ques 2</h1>
+
+
+<div class="card border-secondary mb-3" style="min-width: 18rem;">
+    <div class="card-header">Explain NonAction, ChildActionOnly with example?</div>
+    <div class="card-body text-secondary">
+        <h5 class="card-title">No Action</h5>
+        <p class="card-text">
+            If We don't want to call some fucnction directly from the browser
+            then use non action attribute above it
+        </p>
+        <p>
+            This Button will perform a Non-Action Method from the controller , this will throw an error as a Non-Action
+            method cannot be called.
+        </p>
+        <br />
+        @Html.ActionLink("Click Here to see that we are unable to call a non-action attribute", "Usage_of_NonAction", "Day2", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+
+
+        <h5 class="card-title">No Action</h5>
+        <p class="card-text">
+            ChildActionOnly it related with partial views but it is not mandatory. If decided not to access through url then
+            we may declare action method as ChildActionOnly. This attribute used to prevent the action method being
+            invoked as a result of a user request, that is it prevent from accessing via url.
+        </p>
+
+        <h2>
+            The below content is coming from Child Action Only :
+
+        </h2>
+        <br />
+        @{
+            Html.RenderAction("Usage_of_ChildAction");
+        }
+
+    </div>
+</div>
+
+
+<a href='@Url.Action("Index","Day1")'>Go Back To Main Page</a>

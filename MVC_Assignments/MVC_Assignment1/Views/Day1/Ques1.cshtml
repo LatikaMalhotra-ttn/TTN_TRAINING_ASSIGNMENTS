@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "Day1 - Ques1";
+}
+
+
+
+<div class="card border-success mb-3" style="min-width: 18rem;">
+    <div class="card-header bg-transparent border-success"><bold>Day 1- Ques 1</bold></div>
+    <div class="card-body text-success">
+        <h5 class="card-title"><bold>Explain MVC and the benefit of MVC</bold></h5>
+        <p class="card-text">
+
+            The Model-View-Controller (MVC) is an pattern which separates an application into three
+            different components Namely:
+            <ol>
+                <li>
+                    <bold>Model:</bold>
+                    It represents the data to the user.This level defines the storage location of the application’s 
+                    data objects.
+                    
+                </li>
+                <li>
+                    <bold>View:</bold>
+                    It displays the model data to the user. It helps in creating an interface that shows the final output 
+                    to the user. It will not display anything of itself. The view component displays the output to the users
+                    upon receiving the instruction/information from the controller/model. In addition, it collects requests
+                    from the user-end and informs the controller.
+                </li>
+                <li>
+                    <bold>Control:</bold>
+                    This component acts as the central unit of the MVC architecture. In addition, the controller component 
+                    acts as a bridge between a user and the system. 
+                </li>
+            </ol>
+            Each of these components are built to handle specific development aspects of an application. 
+            MVC is mostly used in industry-standard web development framework to create scalable and extensible projects.
+
+
+
+        </p>
+
+    </div>
+    <div class="card-footer bg-transparent border-success">
+        <p>
+            <bold>Benifits of MVC are as follows:</bold>
+            <ol>
+                <li>
+                    <bold>It Returns the Data Without Formating</bold>
+                </li>
+                <li>
+                    <bold>It is Ideal for Developing Large Size Web Application</bold>
+                </li>
+                <li>
+                    <bold>It Accelerated Development Process</bold>
+                </li>
+                <li>
+                    <bold>Develop Multiple View Components for your Model</bold>
+                </li>
+                <li>
+                    <bold>Supports Asynchronous Method Invocation</bold>
+                </li>
+
+            </ol>
+        </p>
+    </div>
+</div>
+
+<a href='@Url.Action("Index","Day1")'>Go Back To Main Page</a>
+
+
+
+
+
+

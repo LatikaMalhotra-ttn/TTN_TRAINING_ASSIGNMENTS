@@ -1,0 +1,41 @@
+﻿@using MVC_Assignment1.Models
+
+@{
+    ViewBag.Title = "Part_of_Ques_3";
+}
+
+<h3>Passing Data From Controller to View using ViewBag</h3>
+
+@{
+    var data = ViewBag.StudentDetail;
+}
+
+
+<h5>Roll No: @data.Roll_No</h5>
+<h5>Student Name: @data.Name</h5>
+<h5>Phone Number: @data.PhoneNumber</h5>
+<br />
+<br />
+
+
+
+<h3>Passing Data From Controller To View using ViewData</h3>
+@{
+    var data1 = (Student)ViewData["StudentDetail"];
+}
+<h5>Roll No: @data1.Roll_No</h5>
+<h5>Student Name: @data1.Name</h5>
+<h5>Phone Number: @data1.PhoneNumber</h5>
+
+
+<br />
+<br/>
+
+<h3>Passing Data From Controller To View using TempData</h3>
+<h5>My Professor name is @TempData["Professor_Name"]</h5>
+
+<br />
+<br/>
+
+
+<a href='@Url.Action("Ques3","Day1")'>Click Here To go back</a>

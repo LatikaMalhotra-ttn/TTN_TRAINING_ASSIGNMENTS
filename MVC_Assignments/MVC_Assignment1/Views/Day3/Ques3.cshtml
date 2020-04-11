@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Day3 - Ques3";
+}
+
+
+<h1>Day3- Ques3</h1>
+
+<div class="card border-warning mb-3" style="min-width: 18rem;">
+    <div class="card-header">
+        Difference between validation summary and ValidationMessageFor and how to check if the controller 
+        model is valid or not.Explain AntiForgery Token attribute also?
+    </div>
+    <div class="card-body text-warning">
+        <h5 class="card-title">ValidationMessageFor</h5>
+        <p class="card-text">
+            The Html.ValidationMessageFor() is a strongly typed extension method. It displays a
+            validation message if an error exists for the specified field in the ModelStateDictionary object.
+        </p>
+        <hr />
+        <h5 class="card-title">Validation Summary</h5>
+        <p class="card-text">
+            The ValidationSummary helper method generates an unordered list of validation messages
+            that are in the ModelStateDictionary object.The ValidationSummary can be used to display
+            all the error messages for all the fields. It can also be used to display custom error messages.
+        </p>
+        <hr />
+        <h5 class="card-title">How to check if controller model is valid or not?</h5>
+        <p class="card-text">
+            This can be done by using ModelState.Isvalid
+        </p>
+        <hr />
+
+        <p>All this is done in the Employee Form .Click on the link below to check</p>
+        <a href='@Url.Action("Index","Employees")' class="btn btn-primary">Click Me</a>
+        <hr />
+
+
+        <h5 class="card-title">AntiForgery Token</h5>
+        <p class="card-text">
+            The basic purpose of ValidateAntiForgeryToken attribute is to prevent cross-site request forgery attacks.
+            A cross-site request forgery is an attack in which a harmful script element, malicious command, or code is
+            sent from the browser of a trusted user.
+        </p>
+
+
+    </div>
+</div>
