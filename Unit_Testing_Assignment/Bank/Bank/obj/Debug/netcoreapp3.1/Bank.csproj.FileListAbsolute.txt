@@ -1,0 +1,15 @@
+C:\Users\Puneet\source\repos\Bank\Bank\obj\Debug\netcoreapp3.1\Bank.AssemblyInfoInputs.cache
+C:\Users\Puneet\source\repos\Bank\Bank\obj\Debug\netcoreapp3.1\Bank.AssemblyInfo.cs
+C:\Users\Latika Malhotra\Desktop\Bank\Bank\Bank\bin\Debug\netcoreapp3.1\Bank.exe
+C:\Users\Latika Malhotra\Desktop\Bank\Bank\Bank\bin\Debug\netcoreapp3.1\Bank.deps.json
+C:\Users\Latika Malhotra\Desktop\Bank\Bank\Bank\bin\Debug\netcoreapp3.1\Bank.runtimeconfig.json
+C:\Users\Latika Malhotra\Desktop\Bank\Bank\Bank\bin\Debug\netcoreapp3.1\Bank.runtimeconfig.dev.json
+C:\Users\Latika Malhotra\Desktop\Bank\Bank\Bank\bin\Debug\netcoreapp3.1\Bank.dll
+C:\Users\Latika Malhotra\Desktop\Bank\Bank\Bank\bin\Debug\netcoreapp3.1\Bank.pdb
+C:\Users\Latika Malhotra\Desktop\Bank\Bank\Bank\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Latika Malhotra\Desktop\Bank\Bank\Bank\obj\Debug\netcoreapp3.1\Bank.csprojAssemblyReference.cache
+C:\Users\Latika Malhotra\Desktop\Bank\Bank\Bank\obj\Debug\netcoreapp3.1\Bank.AssemblyInfoInputs.cache
+C:\Users\Latika Malhotra\Desktop\Bank\Bank\Bank\obj\Debug\netcoreapp3.1\Bank.AssemblyInfo.cs
+C:\Users\Latika Malhotra\Desktop\Bank\Bank\Bank\obj\Debug\netcoreapp3.1\Bank.csproj.CopyComplete
+C:\Users\Latika Malhotra\Desktop\Bank\Bank\Bank\obj\Debug\netcoreapp3.1\Bank.dll
+C:\Users\Latika Malhotra\Desktop\Bank\Bank\Bank\obj\Debug\netcoreapp3.1\Bank.pdb
