@@ -1,0 +1,60 @@
+﻿@page "/Ques4"
+<h3>Ques4</h3>
+
+<div class="card border-light mb-3" style="min-width: 18rem;">
+    <div class="card-header"> Explain all binding with example?</div>
+    <div class="card-body">
+        <h5 class="card-title">There are three different types of binding in blazor.Namely:-</h5>
+        <p class="card-text">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    One Way Binding: In one-way binding, we need to pass property or variable name along
+                    with at the rate Name (here Name is either the property or variable).
+                    Click on the button below to see on-way data binding example.<br />
+                    <button class="btn btn-primary" @onclick="Check_One_Way_Data_Binding">Click me</button>
+
+                </li>
+                <li class="list-group-item">
+                    Two Way Binding:Blazor now supports two-way binding. This can be achieved by using "bind" attribute.
+                    Click on the button below to see example to two way data binding.<br />
+                    <button class="btn btn-primary" @onclick="Check_Two_Way_Data_Binding">Click me</button>
+
+                </li>
+                
+                <li class="list-group-item">
+                    Event Binding: Event binding is done by using function name along with at the rate ButtonClicked
+                    Click on the below button to see how event binding work.
+                    <button class="btn btn-primary" @onclick="MainPage">Go Back to main page</button>
+                </li>
+            </ul>
+        </p>
+    </div>
+</div>
+
+
+<button class="btn btn-primary" @onclick="MainPage">Go Back to main page</button>
+
+@code {
+
+
+    void Check_One_Way_Data_Binding()
+    {
+        _navigation.NavigateTo("/One_Way_Data_Binding");
+    }
+
+    void Check_Two_Way_Data_Binding()
+    {
+        _navigation.NavigateTo("/Two_Way_Data_Binding");
+    }
+
+
+    void MainPage()
+    {
+        _navigation.NavigateTo("/");
+    }
+}
+
+
+
+
+

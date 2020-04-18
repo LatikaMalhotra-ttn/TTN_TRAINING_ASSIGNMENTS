@@ -1,0 +1,24 @@
+﻿@inherits LayoutComponentBase
+
+<div class="sidebar">
+    <CustomNav />
+</div>
+
+<div class="main">
+    <div class="top-row px-4">
+     
+        <input type="button" value="logout" class="btn btn-primary" @onclick="@Logout" />
+        <a href="https://www.tothenew.com/" class="btn btn-primary" target="_blank">To The New</a>
+    </div>
+
+    <div class="content px-4">
+        @Body
+    </div>
+</div>
+@code
+{
+    private void Logout()
+    {
+        _navigate.NavigateTo("/login");
+    }
+}

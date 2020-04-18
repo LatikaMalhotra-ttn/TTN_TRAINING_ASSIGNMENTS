@@ -1,0 +1,364 @@
+﻿@page "/Ques5"
+
+@*<h3>Ques5</h3>
+<button class="btn btn-primary" @onclick="MainPage"> Click me</button>
+<hr/>*@
+    <style>
+        html {
+            /*font-size: 62.5%;*/
+            box-sizing: border-box;
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: inherit;
+        }
+
+        .calculator {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+        }
+
+        .calculator-screen {
+            width: 100%;
+            height: 80px;
+            border: none;
+            background-color: #252525;
+            color: #fff;
+            text-align: right;
+            padding-right: 20px;
+            padding-left: 10px;
+            font-size: 4rem;
+        }
+
+        button {
+            height: 60px;
+            font-size: 2rem !important;
+        }
+
+        .equal-sign {
+            height: 98%;
+            grid-area: 2 / 4 / 6 / 5;
+        }
+
+        .calculator-keys {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+            padding: 20px;
+        }
+
+
+    </style >
+    <div class="calculator card" >
+
+    <input type="text" @bind="@input_field" class="calculator-screen z-depth-1"  disabled />
+
+    <div class="calculator-keys">
+
+        <button type="button" class="operator btn btn-info" value="+" @onclick="plus"> + </button>
+        <button type="button" class="operator btn btn-info" value="-" @onclick="minus"> -</button>
+        <button type="button" class="operator btn btn-info" value="*" @onclick="multiply"> &times;</button>
+        <button type="button" class="operator btn btn-info" value="/" @onclick="divide"> &divide;</button>
+
+        <button type="button" value="7" class="btn btn-light waves-effect" @onclick="seven"> 7</button>
+        <button type="button" value="8" class="btn btn-light waves-effect" @onclick="eight"> 8</button>
+        <button type="button" value="9" class="btn btn-light waves-effect" @onclick="nine"> 9</button>
+
+
+        <button type="button" value="4" class="btn btn-light waves-effect" @onclick="four"> 4</button>
+        <button type="button" value="5" class="btn btn-light waves-effect" @onclick="five"> 5</button>
+        <button type="button" value="6" class="btn btn-light waves-effect" @onclick="six"> 6</button>
+
+
+        <button type="button" value="1" class="btn btn-light waves-effect" @onclick="one"> 1</button>
+        <button type="button" value="2" class="btn btn-light waves-effect" @onclick="two"> 2</button>
+        <button type="button" value="3" class="btn btn-light waves-effect" @onclick="three"> 3</button>
+
+
+        <button type="button" value="0" class="btn btn-light waves-effect" @onclick="zero"> 0</button>
+        <button type="button" class="decimal function btn btn-secondary" value="." @onclick="dot"> .</button>
+        <button type="button" class="all-clear function btn btn-danger btn-sm" value="all-clear" @onclick="delete"> AC</button>
+
+        <button type="button" class="equal-sign operator btn btn-default" value="=" @onclick="equal"> =</button>
+        
+
+    </div>
+    </div >
+
+
+
+
+    
+@code {
+
+
+
+    public string input_field { get; set; } = "";
+
+    public double Evaluate(string expr)
+    {
+        try
+        {
+            System.Data.DataTable table = new System.Data.DataTable();
+            return Convert.ToDouble(table.Compute(expr, String.Empty));
+        }
+        catch(Exception ex)
+        {
+            throw ex;
+        }
+
+    }
+
+    void MainPage()
+    {
+        _navigation.NavigateTo("/");
+    }
+    void zero()
+    {
+        try
+        {
+
+            if (input_field == "0" && input_field != null)
+                input_field = "0";
+            else
+                input_field =input_field + "0";
+        }
+        catch(Exception ex)
+        {
+            input_field = "Error.Clear n try again";
+        }
+
+    }
+    void one()
+    {
+        try
+        {
+
+            if (input_field == "0" && input_field != null)
+                input_field = "1";
+            else
+                input_field = input_field + "1";
+        }
+        catch (Exception ex)
+        {
+            input_field = "Error.Clear n try again";
+        }
+    }
+    void two()
+    {
+        try
+        {
+
+            if (input_field == "0" && input_field != null)
+                input_field = "2";
+            else
+                input_field =input_field + "2";
+        }
+        catch(Exception ex)
+        {
+            input_field = "Error.Clear n try again";
+        }
+
+    }
+    void three()
+    {
+        try
+        {
+
+            if (input_field == "0" && input_field != null)
+                input_field = "3";
+            else
+                input_field =input_field + "3";
+        }
+        catch(Exception ex)
+        {
+            input_field = "Error.Clear n try again";
+        }
+
+    }
+    void four()
+    {
+        try
+        {
+
+            if (input_field == "0" && input_field != null)
+                input_field = "4";
+            else
+                input_field =input_field + "4";
+        }
+        catch(Exception ex)
+        {
+            input_field = "Error.Clear n try again";
+        }
+    }
+    void five()
+    {
+        try
+        {
+
+            if (input_field == "0" && input_field != null)
+                input_field = "5";
+            else
+                input_field =input_field + "5";
+        }
+        catch(Exception ex)
+        {
+            input_field = "Error.Clear n try again";
+        }
+    }
+    void six()
+    {
+        try
+        {
+
+            if (input_field == "0" && input_field != null)
+                input_field = "6";
+            else
+                input_field =input_field + "6";
+        }
+        catch(Exception ex)
+        {
+            input_field = "Error.Clear n try again";
+        }
+    }
+    void seven()
+    {
+        try
+        {
+
+            if (input_field == "0" && input_field != null)
+                input_field = "7";
+            else
+                input_field =input_field + "7";
+        }
+        catch(Exception ex)
+        {
+            input_field = "Error.Clear n try again";
+        }
+    }
+    void eight()
+    {
+        try
+        {
+
+            if (input_field == "0" && input_field != null)
+                input_field = "8";
+            else
+                input_field =input_field + "8";
+        }
+        catch(Exception ex)
+        {
+            input_field = "Error.Clear n try again";
+        }
+    }
+    void nine()
+    {
+        try
+        {
+
+            if (input_field == "0" && input_field != null)
+                input_field = "9";
+            else
+                input_field =input_field + "9";
+        }
+        catch(Exception ex)
+        {
+            input_field = "Error.Clear n try again";
+        }
+    }
+    void plus()
+    {
+        try
+        {
+            input_field = input_field + "+";
+        }
+        catch(Exception ex)
+        {
+            
+            input_field = "Error.Clear n try again";
+        }
+
+    }
+    void minus()
+    {
+                try
+        {
+            input_field = input_field + "-";
+        }
+        catch(Exception ex)
+        {
+            
+            input_field = "Error.Clear n try again";
+        }
+    }
+    void divide()
+    {
+                try
+        {
+            input_field = input_field + "/";
+        }
+        catch(Exception ex)
+        {
+            
+            input_field = "Error.Clear n try again";
+        }
+
+    }
+    void multiply()
+    {
+                try
+        {
+            input_field = input_field + "*";
+        }
+        catch(Exception ex)
+        {
+            
+            input_field = "Error.Clear n try again";
+        }
+    }
+
+    void dot()
+    {
+
+                try
+        {
+            input_field = input_field + ".";
+        }
+        catch(Exception ex)
+        {
+            
+            input_field = "Error.Clear n try again";
+        }
+    }
+    void delete()
+    {
+        input_field = "0";
+        //if (input_field != null && input_field != "0")
+        //{
+        //    if (input_field.Length > 1)
+        //        input_field = input_field.Substring(0, (input_field.Length- 1));
+        //    else
+        //    {
+        //        input_field = "0";
+        //    }
+        //}
+    }
+    void equal()
+    {
+        double results = Evaluate(input_field);
+        input_field = Convert.ToString(results);
+    }
+
+}
+
+
+

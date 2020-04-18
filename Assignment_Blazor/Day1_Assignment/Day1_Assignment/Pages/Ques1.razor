@@ -1,0 +1,51 @@
+﻿@page "/Ques1"
+<h3>Ques1</h3>
+
+
+<div class="card border-success mb-3" style="min-width: 18rem;">
+    <div class="card-header">
+        Difference between the Blazor client-side and server-side and also explain
+        web assembly and Signal R connection.
+    </div>
+    <div class="card-body text-success">
+        <h5 class="card-title">Blazor Client Side</h5>
+        <p class="card-text">
+            In this hosting modal the application is executed client-side in the browser. The Blazor app,
+            its dependencies, and the .NET run-time are downloaded to the browser. The app is executed
+            directly on the browser UI thread. UI updates and event handling occur within the same process.
+        </p>
+        <hr />
+        <h5 class="card-title">Blazor Server Side</h5>
+        <p class="card-text">
+            In this hosting modal, the whole application will reside in the ASP.NET Core server and requests
+            will be made from browser to server for various actions. As this does not send any form of DLL to
+            the browser, it maintains the SignalR Connection between the server and the client and send the
+            differncial HTML to the browser accrording to the request made.
+        </p>
+        <hr />
+        <h5 class="card-title">Web Assembly</h5>
+        <p class="card-text">
+            Blazor is running client-side hosting model in the browser on WebAssembly. The Blazor app, its dependencies,
+            and the .NET runtime are downloaded to the browser. The app is executed directly on the browser UI thread.
+            UI updates and event handling occur within the same process.
+        </p>
+        <hr />
+        <h5 class="card-title">SignalR Connection</h5>
+        <p class="card-text">
+            ASP.NET Core SignalR is an open-source library that simplifies adding real-time web functionality to apps.
+            Real-time web functionality enables server-side code to push content to clients instantly.
+            To create a Blazor app using the Blazor Server hosting model, use the ASP.NET Core Blazor Server App template.
+            The ASP.NET Core app hosts the Blazor Server app and creates the SignalR endpoint where clients connect.
+        </p>
+    </div>
+</div>
+
+
+<button class="btn btn-primary" @onclick="MainPage">Go Back to main page</button>
+
+@code {
+    void MainPage()
+    {
+        _navigation.NavigateTo("/");
+    }
+}

@@ -1,0 +1,25 @@
+﻿@page "/Event_Binding"
+
+<h3>Event Binding</h3>
+<br />
+<button @onclick="ButtonClicked">Event Binding Example</button>
+<br />
+<br />
+<button @onclick=@(() => Console.WriteLine("Inline:Button Clicked"))>Inline Event Binding</button>
+
+
+
+
+<button class="btn btn-primary" @onclick="MainPage">Click me</button>
+
+@functions {
+    void ButtonClicked()
+    {
+        Console.WriteLine("Button Clicked");
+    }
+
+    void MainPage()
+    {
+        _navigation.NavigateTo("/");
+    }
+}  

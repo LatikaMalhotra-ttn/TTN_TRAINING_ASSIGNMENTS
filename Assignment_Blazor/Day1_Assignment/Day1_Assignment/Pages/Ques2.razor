@@ -1,0 +1,31 @@
+﻿@page "/Ques2"
+<h3>Ques2</h3>
+
+<div class="card border-warning mb-3" style="min-width: 18rem;">
+    <div class="card-header"> What is the component and component parameter?</div>
+    <div class="card-body text-warning">
+        <h5 class="card-title">Component</h5>
+        <p class="card-text">
+            Mostly,Blazor apps are build using components. Components are implemented in .razor component files using a combination
+            of C# and HTML. Component name must always start with the upperCase letter. members of the component class are
+            defined under the function section. We can include the one component into the other.
+        </p>
+        <hr />
+        <h5 class="card-title">Component Parameter</h5>
+        <p class="card-text">
+
+            Component parameters are used when we want to share data between child and parent component
+
+        </p>
+        <p class="card-text">Example of this is shown in day 2 assignment</p>
+    </div>
+</div>
+
+<button class="btn btn-primary" @onclick="MainPage">Go Back to main page</button>
+
+@code {
+    void MainPage()
+    {
+        _navigation.NavigateTo("/");
+    }
+}

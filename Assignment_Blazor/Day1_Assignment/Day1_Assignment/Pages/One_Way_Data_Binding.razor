@@ -1,0 +1,30 @@
+﻿@page "/One_Way_Data_Binding"
+
+
+    <div class="card border-light mb-3" style="max-width: 18rem;">
+        <div class="card-header">Checking one way data Binding</div>
+        <div class="card-body">
+            <h5 class="card-title">The below value is fetched using one way data binding</h5>
+            <p class="card-text">
+                <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+            </p>
+        </div>
+    </div>
+
+
+    <button class="btn btn-primary" @onclick="MainPage">Click me</button>
+
+
+@code {
+    int currentCount = 0;
+
+    void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    void MainPage()
+    {
+        _navigation.NavigateTo("/");
+    }
+}

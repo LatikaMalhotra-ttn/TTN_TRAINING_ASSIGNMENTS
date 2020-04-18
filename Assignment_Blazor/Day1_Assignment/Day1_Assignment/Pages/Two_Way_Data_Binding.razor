@@ -1,0 +1,41 @@
+﻿@page "/Two_Way_Data_Binding"
+
+
+
+
+<div class="card border-dark mb-3" style="min-width: 18rem;">
+    <div class="card-header">Two Way Data Binding</div>
+    <div class="card-body text-dark">
+        <h5 class="card-title">Please enter the data below</h5>
+        <p class="card-text">
+            Enter your name: <input type="text" @bind="@Name" @bind:event="oninput"/><br />
+            What is your age? <input type="number" @bind="@Age"  @bind:event="oninput"/><br />
+        </p>
+        <hr />
+        @*<button @onclick="clickMe">Click_Me</button>*@
+        <h5 class="card-title">You have entered</h5>
+        <p class="card-text" style="color:palevioletred">
+            Hello,<b> @Name</b> .Your age is <b>@Age</b> .Hope you are safe and healthy!!!!!!
+        </p>
+    </div>
+</div>
+
+<button class="btn btn-primary" @onclick="MainPage">Go Back to main page</button>
+
+@functions {
+
+
+    private string Name { get; set; } = "Latika";
+
+    private static int Age { get; set; } = 21;
+
+        void MainPage()
+    {
+        _navigation.NavigateTo("/");
+    }
+
+}
+
+
+
+

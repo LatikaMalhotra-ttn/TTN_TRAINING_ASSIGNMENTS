@@ -1,0 +1,111 @@
+﻿@page "/Ques3"
+<h3>Ques3</h3>
+
+<div class="card border-info mb-3" style="min-width: 18rem;">
+    <div class="card-header">Explain the Life cycle with example?</div>
+    <img class="card-img-bottom" src="/images/BlazorComponentLifecycle.png" asp-append-version="true" alt="Card image cap">
+    <div class="card-body text-info">
+        <h5 class="card-title">The Blazor framework includes synchronous and asynchronous lifecycle methods.namely:- </h5>
+        <p class="card-text">*****example can be seen in the console of visual studio after running this application*****</p>
+        <p class="card-text">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <b>Set ParameterAsync:</b>After the component is created, this is the first method to be executed. The parameters
+                    that are to be passed into the component are specified in a ParameterView.
+                </li>
+                <li class="list-group-item">
+                    <b>OnInitialization/OnInitaliazationAsync</b>:Once the state from the ParameterCollection has been assigned to the
+                    component’s [Parameter] properties, these methods are executed. This is useful in the same way as
+                    SetParametersAsync, except it is possible to use the component’s state.
+                </li>
+                <li class="list-group-item">
+                    <b>OnParameterSet/OnParameterSetAsync:</b>These are the first pair of methods in a component’s lifecycle that
+                    are potentially called repeatedly. If none of the component’s [Parameter] properties change then the
+                    component will simply idle until it is finally destroyed.
+                </li>
+                <li class="list-group-item">
+                    <b>OnAfterRender/OnAfterRenderAsync:</b> These last two methods are executed every time Blazor has re-generated
+                    the component’s RenderTree. This can be as a result of the component’s [Parameter] properties being
+                    changed in its parent’s HTML mark-up, as a consequence of the user interacting with the component
+                    (e.g. a mouse-click), or if the component executes its StateHasChanged method to invoke a re-render.
+                </li>
+                <li class="list-group-item">
+                    <b>StateHasChanged:</b>This method doesn’t qualify as a lifecycle method, but it does trigger another method
+                    that is part of the lifecycle of a component. By default, Blazor will check if its state has changed
+                    after certain interactions (such as a button click).
+                </li>
+                <li class="list-group-item">
+                    <b>Dispose:</b> Although this isn’t strictly one of the ComponentBase’s lifecycle methods, if a component
+                    implements IDisposable then Blazor will execute Dispose once the component is removed from its
+                    parent’s render tree.
+                </li>
+            </ul>
+            
+        </p>
+        
+    </div>
+</div>
+
+<button class="btn btn-primary" @onclick="MainPage">Go Back to main page</button>
+
+@code {
+    void MainPage()
+    {
+        _navigation.NavigateTo("/");
+    }
+
+
+
+
+        protected override void OnInitialized()
+    {
+        Console.WriteLine("Running On - OnInitialized");
+        base.OnInitialized();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Console.WriteLine("Running On - OnInitializedAsync");
+
+        await base.OnInitializedAsync();
+    }
+
+    protected override void OnParametersSet()
+    {
+        Console.WriteLine("Running On - OnParametersSet");
+        base.OnParametersSet();
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        Console.WriteLine("Running On - OnParametersSetAsync");
+        await base.OnParametersSetAsync();
+    }
+
+    protected override bool ShouldRender()
+    {
+        base.ShouldRender();
+        Console.WriteLine("Running On - ShouldRender");
+
+        return true;
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        Console.WriteLine("Running On - OnAfterRender - firstRender = " + firstRender);
+        base.OnAfterRender(firstRender);
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        Console.WriteLine("Running On - OnAfterRenderAsync - firstRender = " + firstRender);
+
+        await base.OnAfterRenderAsync(firstRender);
+    }
+
+    public void Dispose()
+    {
+        Console.WriteLine("Running On - Dispose");
+    }
+
+}
