@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+    <title>Js Day1 and 2 Assignments</title>
+</head>
+<body>
+        <div class="wrapper d-flex align-items-stretch">
+            <nav id="sidebar">
+                <div class="p-4 pt-5">
+                <a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/image_ToTheNew.png);"></a>
+                <ul class="list-unstyled components mb-5">
+                    <!-- <li class="active">
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                    </li> -->
+                    <li>
+                        <a id="home_a" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Questions</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li>
+                                
+                                <a id="q1" href="#">Question 1</a>
+                            </li>
+                            <li>
+                                <a id="q2" href="#">Question 2</a>
+                            </li>
+                            <li>
+                                <a id="q3" href="#">Question 3</a>
+                            </li>
+                            <li>
+                                <a id="q4" href="#">Question 4</a>
+                            </li>
+                            <li>
+                                <a id="q5" href="#">Question 5</a>
+                            </li>
+                            <li>
+                                <a id="q6" href="#">Question 6</a>
+                            </li>
+                            <li>
+                                <a id="q7" href="#">Question 7</a>
+                            </li>
+                            <li>
+                                <a id="q8" href="#">Question 8</a>
+                            </li>
+                            <li>
+                                <a id="q9" href="#">Question 9</a>
+                            </li>
+                            <li>
+                                <a id="q10" href="#">Question 10</a>
+                            </li>
+                            <li>
+                                <a id="q11" href="#">Question 11</a>
+                            </li>
+                            <li>
+                                <a id="q12" href="#">Question 12</a>
+                            </li>
+                            <li>
+                                <a id="q13" href="#">Question 13</a>
+                            </li>
+                        </ul>
+            
+                </ul>
+
+            <div class="footer">
+                <p>
+                     Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made by: Latika Malhotra 
+                </p>
+            </div>
+
+        </div>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class="p-4 p-md-5">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+
+                <button type="button" id="sidebarCollapse" class="btn btn-primary">
+                    <i class="fa fa-bars"></i>
+                    <span class="sr-only">Toggle Menu</span>
+                </button>
+                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://www.tothenew.com/">To The New</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="main_div" class="card border-info mb-3" style="min-width: 18rem;">
+            <div  class="card-header">Js Assignment Of Day 1 and 2</div>
+            <div class="card-body text-info">
+              <h5 class="card-title">Questions of assignment are as follows:-</h5>
+              <p class="card-text"></p>
+              <ul class="list-group">
+                <li class="list-group-item">Given this array: `[3,62,234,7,23,74,23,76,92]`, Using arrow function, create an array of the numbers greater than `70`.</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Create a markup template using string literal</li>
+                <li class="list-group-item">Extract all keys inside address object from user object using destructuring ?</li>
+                <li class="list-group-item">Find the possible combinations of a string and store them in a MAP?</li>
+                <li class="list-group-item">Write a program to implement inheritance upto 3 classes.The Class must  public variables and static functions.</li>
+                <li class="list-group-item">Write a program to implement a class having static functions</li>
+                <li class="list-group-item">Import a module containing the constants and method for calculating area of circle, rectangle, cylinder.</li>
+                <li class="list-group-item">Import a module for filtering unique elements in an array.</li>
+                <li class="list-group-item">Write a program to flatten a nested array to single level using arrow functions.</li>
+                <li class="list-group-item">Implement a singly linked list in es6 and implement addFirst() addLast(), length(), getFirst(), getLast(). (without using array)</li>
+                <li class="list-group-item">Implement Map and Set using Es6</li>
+                <li class="list-group-item">Implementation of stack (using linked list)</li>
+
+              </ul> 
+              </p>
+            </div>
+            </div>
+            <div id="div_of_question1">
+                <div class="jumbotron">
+                    <h3 class="text-monospace">Question 1- Fetching all the numbers greater than 70 using arrow funciton</h3>
+                    <h4>From: [3,62,234,7,23,74,23,76,92] </h4>
+                    <button class="btn btn-success" id="q1btn">Get</button>
+                    <h4 id = "a1" ></h4 >
+                </div>
+            </div >
+            
+            <div id="div_of_question2">
+                <div class="jumbotron">
+                    <ul id="q2ul">
+                        <li data-time="5:17">Flexbox Video</li>
+                        <li data-time="8:22">Flexbox Video</li>
+                        <li data-time="3:34">Redux Video</li>
+                        <li data-time="5:23">Flexbox Video</li>
+                        <li data-time="7:12">Flexbox Video</li>
+                        <li data-time="7:24">Redux Video</li>
+                        <li data-time="6:46">Flexbox Video</li>
+                        <li data-time="4:45">Flexbox Video</li>
+                        <li data-time="4:40">Flexbox Video</li>
+                        <li data-time="7:58">Redux Video</li>
+                        <li data-time="11:51">Flexbox Video</li>
+                        <li data-time="9:13">Flexbox Video</li>
+                        <li data-time="5:50">Flexbox Video</li>
+                        <li data-time="5:52">Redux Video</li>
+                        <li data-time="5:49">Flexbox Video</li>
+                        <li data-time="8:57">Flexbox Video</li>
+                        <li data-time="11:29">Flexbox Video</li>
+                        <li data-time="3:07">Flexbox Video</li>
+                        <li data-time="5:59">Redux Video</li>
+                        <li data-time="3:31">Flexbox Video</li>
+                      </ul>
+        
+                      <h4 class="text-monospace">Question 2 (a)- Fetching all the items from list and maintain in array</h4>
+                        <button class="btn btn-success" id="q2abtn">Get</button>
+                        <h4 id="a2a"> </h4>
+        
+                        <h4 class="text-monospace">Question 2 (b)- Fetching all the items from list and maintain those which have flexbox in it in the array</h4>
+                        <button class="btn btn-success" id="q2bbtn">Get</button>
+                        <h4 id="a2b"> </h4>
+        
+        
+                        <h4 class="text-monospace">Question 2 (c)- Fetching time and putting in array</h4>
+                        <button class="btn btn-success" id="q2cbtn">Get</button>
+                        <h4 id="a2c"> </h4>
+        
+                        <h4 class="text-monospace">Question 2 (d)- mapping time in seconds</h4>
+                        <button class="btn btn-success" id="q2dbtn">Get</button>
+                        <h4 id="a2d"> </h4>
+        
+                        <h4 class="text-monospace">Question 2 (e)- total time using reduce funtion</h4>
+                        <button class="btn btn-success" id="q2ebtn">Get</button>
+                        <h4 id="a2e"> </h4>
+        
+                      
+                </div>
+            </div>
+            <div id="div_of_question3">
+                <div class="jumbotron">
+                <h3 class="text-monospace">Question 3- Creating markup template</h3>
+                <button class="btn btn-success" id="q3btn">Get</button>
+                <div id = "a3" > </div>
+            </div>
+            </div>
+            <div id="div_of_question4">
+                <div class="jumbotron" >
+                    <h3 class="text-monospace">Question 4- fetching keys from address object in user object below</h3>
+                    <h4>
+                        const user = {
+                        firstName: ‘Sahil’,
+                        lastName: ‘Dua’,
+                        Address:
+                        {
+                        Line1: ‘address line 1’,
+                        Line2: ‘address line 2’,
+                        State: ‘Delhi’,
+                        Pin: 110085,
+                        Country: ‘India’,
+                        City: ‘New Delhi’,
+                        },
+                        phoneNo: 9999999999
+                        }
+                    </h4>
+                    <button class="btn btn-success" id="q4btn">Get</button>
+                    <div id = "a4" > </div >
+                </div >
+                <div class="jumbotron" id="q4b">
+                    <h3 class="text-monospace">Question 4(B)- Fetching unique numbers from array using Set</h3>
+                    <h4>From: [3,62,3,9,92,234,23,3,234,7,23,74,23,76,92] </h4>
+                    <button class="btn btn-success" id="q4bbtn">Get</button>
+                <h4 id = "a4b" > </h4 >
+                </div >
+            </div>
+            <div id="div_of_question5">
+                <div class="jumbotron" >
+                    <h3 class="text-monospace">Question 5- Fetching all possible combination of string and storing it in map</h3>
+                    <input type = "text" id="stringVal" placeholder="Write Your String here"/>
+                    <button class="btn btn-success" id="q5btn">Get</button>
+                    <h4 id = "a5" style="color: red;" > </h4 >
+                </div >
+            </div>
+            <div id="div_of_question6">
+                <div class="jumbotron" >
+                    <h3 class="text-monospace">Question 6- Creating class with 3 inheritance containing
+                         static methods and public variables therefore example is in index.js file and 
+                         output is in console
+                    </h3>
+                    <br/>
+                    <p style="color: red;">Please check the ans in console</p>
+                </div>
+            </div>
+            <div id="div_of_question7">
+                <div class="jumbotron" >
+                    <h3 class="text-monospace">Question 7- Creating class with static methods therefore
+                         example is in index.js file and output is in console
+                    </h3>
+                    <p style="color: red;">Please check the ans in console</p>
+                </div>
+            </div>
+            <div id="div_of_question8"></div>
+            <div id="div_of_question9"></div>
+            <div id="div_of_question10" class="card border-primary mb-3" style="min-width: 18rem;"></div>
+            <div id="div_of_question11">
+                <div class="card border-primary mb-3" style="min-width: 18rem;">
+                    <div class="card-header">Singly Linked list</div>
+                    <div class="card-body text-primary">
+                      <h5 class="card-title">Select the operation u want to perform:-</h5>
+                      <p class="card-text">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a id="linkListAllElemets" href="#">Get all elemets of linked list</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="linkListInsertBeg" href="#">Insert an element at the start of linked list</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="linkListInsertEnd" href="#">Insert an element at the end of linked list</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="linkListLength" href="#">Find the length of Linked List</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="linkListGetFirst" href="#">Get the first element of linked list</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="linkListInsertGetLast" href="#">get the last element of the linked list</a>
+                            </li>
+                          </ul>
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <div id="check11" class="card text-white bg-primary mb-3" style="max-width: 18rem;"></div>
+            <div id="div_of_question12">
+                <div class="jumbotron" >
+                    <h3 class="text-monospace">Question 12- Creating SET and MAP with es6 therefore example is in
+                         index.js file and output is in console
+                    </h3>
+                    <p style="color: red;">Please check the ans in console</p>
+                </div>
+                    
+            </div>
+            <div id="div_of_question13">
+                <div class="card border-primary mb-3" style="min-width: 18rem;">
+                    <div class="card-header">Stack</div>
+                    <div class="card-body text-primary">
+                      <h5 class="card-title">Select the operation u want to perform:-</h5>
+                      <p class="card-text">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a id="stackAllElement" href="#">Get all elemets of Stack</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="PushStack" href="#">Push an element in stack</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="popStack" href="#">pop the element in stack</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="lengthStack" href="#">return length of the stack</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="PeekStack" href="#">Return first element in stack without removing it</a>
+                            </li>
+                          </ul>
+                      </p>
+                    </div>
+                </div>
+            </div>
+            <div id="check13" class="card text-white bg-primary mb-3" style="max-width: 18rem;"></div>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/popper.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/main.js"></script>
+<script src="bundle.js"></script>
+</html>
