@@ -1,0 +1,54 @@
+input{
+  font-size: 17px;
+  padding: 6px 8px;
+}
+
+.input-area{
+  padding: 10px;
+}
+
+.submit{
+  background-color:rgb(61, 218, 226);
+  color: white;
+  font-size: 17px;
+  padding: 6px 8px;
+  margin: 0 5px;
+  font-weight: 550;
+  width: 5rem;
+}
+
+.submit:hover{
+  cursor: pointer;
+  background-color:#4EE0FD ;
+  color: white;
+}
+
+.edit{
+  background-color:rgb(90, 241, 90);
+  color: white;
+  font-size: 16px;
+  padding: 6px 8px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-weight: 550;
+  /* width: 5rem; */
+}
+
+
+.edit:hover{
+  background-color:rgb(71, 201, 71);
+  color: white;
+  cursor: pointer;
+}
+
+
+.p { 
+  color: rgb(124, 245, 208); 
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 20px; 
+  font-weight: 400; 
+  line-height: 24px; 
+  margin: 0 0 14px; 
+}
+
+

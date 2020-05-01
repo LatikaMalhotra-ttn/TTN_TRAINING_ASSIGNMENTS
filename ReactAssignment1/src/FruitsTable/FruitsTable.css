@@ -1,0 +1,64 @@
+
+.delete{
+  background-color: red;
+  color: white;
+  font-size: 13px;
+  padding: 4px 6px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-weight: 550;
+  width: 65px;
+}
+
+
+.delete:hover{
+  background-color: rgb(240, 77, 77);
+  color: white;
+}
+
+
+.edit{
+  background-color:rgb(26, 250, 26);
+  color: white;
+  font-size: 13px;
+  padding: 4px 6px;
+  margin: 0 5px;
+  
+  cursor: pointer;
+  font-weight: 550;
+  width: 65px;
+}
+
+
+.featuresTable {  
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  
+  border-collapse: 
+  collapse; border-spacing: 0; 
+  margin: 10px auto;
+}
+
+.featuresTable td, th {  
+  border: 1px solid transparent; 
+  height: 30px; 
+  transition: all 0.3s;  
+}
+
+.featuresTable th {  
+  background: #DFDFDF;  
+  font-weight: bold;
+}
+
+.featuresTable td {  
+  background: #FAFAFA;
+  text-align: center;
+}
+
+  
+.featuresTable tr:nth-child(even) td { background: #F1F1F1; }   
+
+      
+.featuresTable tr:nth-child(odd) td { background: #FEFEFE; }  
+
+.featuresTabletr td:hover { background: #666; color: #FFF; }  

@@ -1,0 +1,32 @@
+/* .App{
+  text-align: center;
+} */
+
+
+.App {
+  width: 60%;
+  margin: 16px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 16px;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  .App {
+    width: 450px;
+  }
+}
+
+
+.h1 { 
+  color: #d54d7b; 
+  font-family: "Great Vibes", cursive; 
+  font-size: 40px; 
+  line-height: 25px; 
+  font-weight: normal; 
+  margin-bottom: 0px; 
+  margin-top: 40px; 
+  text-align: center; 
+  text-shadow: 0 1px 1px #fff; 
+}
