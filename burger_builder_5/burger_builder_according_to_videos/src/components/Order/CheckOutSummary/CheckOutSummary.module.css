@@ -1,0 +1,21 @@
+.CheckOutSummery{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.But{
+    margin: 0 350px;
+    text-align: center;
+}
+
+@media (min-width:600px){
+    .CheckOutSummery{
+        width: 500px;
+    }
+    .But{
+        margin: 0;
+        text-align: center;
+    }
+}
